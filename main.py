@@ -2,8 +2,11 @@ from core.assistant import Assistant
 
 
 def main():
-    grisha = Assistant()
-    grisha.start()
+    assistant_status = True
+    while (assistant_status == True):
+        assistant = Assistant()
+        grisha = Assistant()
+        grisha.start()
 
 
 if __name__ == "__main__":
