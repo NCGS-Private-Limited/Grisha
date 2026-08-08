@@ -1,15 +1,18 @@
-from core.commands import hello
+from core.commands import hello, test_command
 from core.commands import help
 from core.commands import version
+
 
 commands = {
     "hello": hello,
     "help": help,
-    "version": version
+    "version": version,
+    "test": test_command
 }
 
-def dispatch(command, *args):
+
+def dispatch(command, args):
     if command in commands:
-        return commands[command]
+        return commands[command](*args)
     else:
         return "Unknown command"
