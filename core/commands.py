@@ -15,5 +15,5 @@ def version():
 def test_command(first, second, third):
     try:
         return f"{first} {second} {third}"
-    except TypeError as e:
-        return "Invalid Inputs"
+    except:
+        pass

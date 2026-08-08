@@ -10,9 +10,10 @@ commands = {
     "test": test_command
 }
 
-
 def dispatch(command, args):
     if command in commands:
-        return commands[command](*args)
+        return commands[command](*args), "Success"
+    if command == "exit":
+        return "GoodBye!", "Success"
     else:
-        return "Unknown command"
+        return "Unknown command", "failed"
