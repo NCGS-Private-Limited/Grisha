@@ -1,11 +1,13 @@
 from core.parser import command_split
 from core.dispatcher import dispatch
 from core.logger import logger
+from core.config import config
 
 
 class Assistant:
     def start(self):
-        print("====== Grisha Here ======")
+        configuration = config()
+        print(f"====== {configuration['assistant_name']} Here ======")
         print('Type "exit" to Stop')
 
         while True:
@@ -14,7 +16,7 @@ class Assistant:
 
             command, args = command_split(user_input)
             dispatch_output, status_output = dispatch(command, args)
-            print(f"Grisha> {dispatch_output}")
+            print(f"{configuration['assistant_name']}> {dispatch_output}")
 
             if user_input == "exit":
                 logger(user_input, "GoodBye!",status_output)
