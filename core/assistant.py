@@ -2,7 +2,6 @@ from core.parser import command_split
 from core.dispatcher import dispatch
 from core.logger import logger
 from core.config import config
-from memory.memory_parser import memory_extract
 
 
 class Assistant:
@@ -17,7 +16,6 @@ class Assistant:
 
             command, args = command_split(user_input)
             dispatch_output, status_output = dispatch(command, args)
-            memory_extract(user_input)
             print(f"{configuration['assistant_name']}> {dispatch_output}")
 
             if user_input == "exit":
