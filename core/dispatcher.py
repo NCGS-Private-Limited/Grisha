@@ -1,10 +1,12 @@
 from core.commands import hello, test_command
 from core.commands import help
 from core.commands import version
-from file_operations.create_file import filec
-from folder_operations.create_folder import folderc
-from file_operations.delete_file import filed
-from folder_operations.delete_folder import folderd
+from file_operations.create_file import create_file
+from folder_operations.create_folder import create_folder
+from file_operations.delete_file import delete_file
+from folder_operations.delete_folder import delete_folder
+from file_operations.rename_file import rename_file
+from folder_operations.rename_folder import rename_folder
 
 
 commands = {
@@ -17,19 +19,21 @@ commands = {
 def dispatch(command, args):
     if command in commands:
         return commands[command](*args), "Success"
+
     elif command == "exit":
         return "GoodBye!", "Success"
+
     elif command == "create":
         if not args:
             return "Create what?", "failed"
         else:
             if len(args) > 1:
                 if args[0] == "file":
-                    result = filec(args[1])
+                    result = create_file(args[1])
                     return result, "Success"
 
                 elif args[0] == "folder":
-                    result = folderc(args[1])
+                    result = create_folder(args[1])
                     return result, "Success"
                 else:
                     return "Create what?", "failed"
@@ -47,11 +51,11 @@ def dispatch(command, args):
         else:
             if len(args) > 1:
                 if args[0] == "file":
-                    result = filed(args[1])
+                    result = delete_file(args[1])
                     return result, "Success"
 
                 elif args[0] == "folder":
-                    result = folderd(args[1])
+                    result = delete_folder(args[1])
                     return result, "Success"
                 else:
                     return "Delete what?", "failed"
@@ -63,5 +67,32 @@ def dispatch(command, args):
                 else:
                     return "Delete what?", "failed"
 
+    elif command == "rename":
+        if not args:
+            return "Rename what?", "failed"
+        if args[0] == "file":
+            if len(args) == 1:
+                return "Enter an old file name", "failed"
+            elif len(args) == 2:
+                return "Enter a new file name", "failed"
+            elif len(args) == 3:
+                result = rename_file(args[1], args[2])
+                return result, "Success"
+            else:
+                return "Invalid rename command", "failed"
+        elif args[0] == "folder":
+            if len(args) == 1:
+                return "Enter an old folder name", "failed"
+            elif len(args) == 2:
+                return "Enter a new folder name", "failed"
+            elif len(args) == 3:
+                result = rename_folder(args[1], args[2])
+                return result, "Success"
+            else:
+                return "Invalid rename command", "failed"
+        else:
+            return "Rename what?", "failed"
+
+        
     else:
         return "Unknown command", "failed"

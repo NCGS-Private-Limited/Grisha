@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-def folderc(path):
+def create_folder(path):
     path = Path(path)
 
     if path.exists():

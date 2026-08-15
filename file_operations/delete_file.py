@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-def filed(path):
+def delete_file(path):
     path = Path(path)
 
     if path.exists():

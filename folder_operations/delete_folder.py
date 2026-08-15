@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-def folderd(path):
+def delete_folder(path):
     path = Path(path)
 
     if path.exists():

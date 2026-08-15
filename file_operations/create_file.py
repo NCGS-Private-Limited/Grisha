@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-def filec(path):
+def create_file(path):
     path = Path(path)
 
     if path.exists():
