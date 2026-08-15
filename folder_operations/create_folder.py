@@ -7,5 +7,8 @@ def folderc(path):
     if path.exists():
         return f"{path} already exists"
     else:
-        path.mkdir()
-        return "Folder Created"
+        try:
+            path.mkdir()
+            return "Folder Created"
+        except FileNotFoundError:
+           return "Parent directory does not exist"
