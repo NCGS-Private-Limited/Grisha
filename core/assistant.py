@@ -17,6 +17,11 @@ class Assistant:
             command, args = command_split(user_input)
             dispatch_output, status_output = dispatch(command, args)
             print(f"{configuration['assistant_name']}> {dispatch_output}")
+            if command == "create" and args[0] == "file":
+                logger(user_input, "File Created",status_output)
+
+            if command == "create" and args[0] == "folder":
+                logger(user_input, "Folder Created",status_output)
 
             if user_input == "exit":
                 logger(user_input, "GoodBye!",status_output)
