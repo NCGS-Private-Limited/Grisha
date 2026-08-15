@@ -6,7 +6,7 @@ from pathlib import Path
 def logger(user_input, dispatch_output, status_output):
     date = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     message = user_input
-    output = dispatch_output
+    output = output = dispatch_output.replace("\n", " | ")
 
     try:
         mkdir("logs")
