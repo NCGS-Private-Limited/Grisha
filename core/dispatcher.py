@@ -9,6 +9,8 @@ from file_operations.rename_file import rename_file
 from folder_operations.rename_folder import rename_folder
 from file_operations.copy_file import copy_file
 from folder_operations.copy_folder import copy_folder
+from file_operations.move_file import move_file
+from folder_operations.move_folder import move_folder
 
 
 commands = {
@@ -117,8 +119,31 @@ def dispatch(command, args):
                     return result, "Success"
                 else:
                     return "Invalid Copy command", "failed"
+        elif command == "move":
+            if not args:
+                return "Move what?", "failed"
+            if args[0] == "file":
+                if len(args) == 1:
+                    return "Enter the file name to move", "failed"
+                elif len(args) == 2:
+                    return "Enter the destination path to move the file", "failed"
+                elif len(args) == 3:
+                    result = move_file(args[1], args[2])
+                    return result, "Success"
+                else:
+                    return "Invalid Move command", "failed"
+            elif args[0] == "folder":
+                if len(args) == 1:
+                    return "Enter the folder name to move", "failed"
+                elif len(args) == 2:
+                    return "Enter the destination path to move the folder", "failed"
+                elif len(args) == 3:
+                    result = move_folder(args[1], args[2])
+                    return result, "Success"
+                else:
+                    return "Invalid Move command", "failed"
         else:
-            return "Copy what?", "failed"
+            return "Move what?", "failed"
 
     else:
         return "Unknown command", "failed"
