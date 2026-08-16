@@ -7,6 +7,8 @@ from file_operations.delete_file import delete_file
 from folder_operations.delete_folder import delete_folder
 from file_operations.rename_file import rename_file
 from folder_operations.rename_folder import rename_folder
+from file_operations.copy_file import copy_file
+from folder_operations.copy_folder import copy_folder
 
 
 commands = {
@@ -92,7 +94,31 @@ def dispatch(command, args):
                 return "Invalid rename command", "failed"
         else:
             return "Rename what?", "failed"
+    elif command == "copy":
+        if not args:
+            return "Copy what?", "failed"
+        if args[0] == "file":
+            if len(args) == 1:
+                return "Enter the file name to copy", "failed"
+            elif len(args) == 2:
+                return "Enter the destination path to copy the file", "failed"
+            elif len(args) == 3:
+                result = copy_file(args[1], args[2])
+                return result, "Success"
+            else:
+                return "Invalid Copy command", "failed"
+        elif args[0] == "folder":
+                if len(args) == 1:
+                    return "Enter the folder name to copy", "failed"
+                elif len(args) == 2:
+                    return "Enter the destination path to copy the folder", "failed"
+                elif len(args) == 3:
+                    result = copy_folder(args[1], args[2])
+                    return result, "Success"
+                else:
+                    return "Invalid Copy command", "failed"
+        else:
+            return "Copy what?", "failed"
 
-        
     else:
         return "Unknown command", "failed"
