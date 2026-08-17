@@ -9,14 +9,14 @@ def move_file(path, destination):
     if path.exists():
         if path.is_file():
             if destination.exists():
-                return "File already exists"
+                return "File already exists", "failed"
             else:
                 try:
                     shutil.move(path, destination)
-                    return "File moved successfully"
+                    return "File moved successfully", "success"
                 except OSError:
-                    return "File could not be moved"
+                    return "File could not be moved", "failed"
         else:
-            return "Move what?"
+            return "Move what?", "failed"
     else:
-        return "Move what?"
+        return "Move what?", "failed"
