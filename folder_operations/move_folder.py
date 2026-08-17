@@ -9,14 +9,14 @@ def move_folder(path, destination):
     if path.exists():
         if path.is_dir():
             if destination.exists():
-                return "folder already exists", "failed"
+                return "folder already exists"
             else:
                 try:
                     shutil.move(path, destination)
-                    return "folder moved successfully", "success"
+                    return "folder moved successfully"
                 except OSError:
-                    return "folder does not exist", "failed"
+                    return "folder does not exist"
         else:
-            return "Move what?", "failed"
+            return "Move what?"
     else:
-        return "Move what?", "failed"
+        return "Move what?"

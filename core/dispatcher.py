@@ -99,51 +99,55 @@ def dispatch(command, args):
     elif command == "copy":
         if not args:
             return "Copy what?", "failed"
+
         if args[0] == "file":
             if len(args) == 1:
                 return "Enter the file name to copy", "failed"
             elif len(args) == 2:
                 return "Enter the destination path to copy the file", "failed"
             elif len(args) == 3:
-                result = copy_file(args[1], args[2])
-                return result, "Success"
+                return copy_file(args[1], args[2]), "Success"
             else:
-                return "Invalid Copy command", "failed"
+                return "Invalid copy command", "failed"
+
         elif args[0] == "folder":
-                if len(args) == 1:
-                    return "Enter the folder name to copy", "failed"
-                elif len(args) == 2:
-                    return "Enter the destination path to copy the folder", "failed"
-                elif len(args) == 3:
-                    result = copy_folder(args[1], args[2])
-                    return result, "Success"
-                else:
-                    return "Invalid Copy command", "failed"
-        elif command == "move":
-            if not args:
-                return "Move what?", "failed"
-            if args[0] == "file":
-                if len(args) == 1:
-                    return "Enter the file name to move", "failed"
-                elif len(args) == 2:
-                    return "Enter the destination path to move the file", "failed"
-                elif len(args) == 3:
-                    result = move_file(args[1], args[2])
-                    return result, "Success"
-                else:
-                    return "Invalid Move command", "failed"
-            elif args[0] == "folder":
-                if len(args) == 1:
-                    return "Enter the folder name to move", "failed"
-                elif len(args) == 2:
-                    return "Enter the destination path to move the folder", "failed"
-                elif len(args) == 3:
-                    result = move_folder(args[1], args[2])
-                    return result, "Success"
-                else:
-                    return "Invalid Move command", "failed"
+            if len(args) == 1:
+                return "Enter the folder name to copy", "failed"
+            elif len(args) == 2:
+                return "Enter the destination path to copy the folder", "failed"
+            elif len(args) == 3:
+                return copy_folder(args[1], args[2]), "Success"
+            else:
+                return "Invalid copy command", "failed"
+
         else:
+            return "Copy what?", "failed"
+
+    elif command == "move":
+        if not args:
             return "Move what?", "failed"
 
+        if args[0] == "file":
+            if len(args) == 1:
+                return "Enter the file name to move", "failed"
+            elif len(args) == 2:
+                return "Enter the destination path to move the file", "failed"
+            elif len(args) == 3:
+                return move_file(args[1], args[2]), "Success"
+            else:
+                return "Invalid move command", "failed"
+
+        elif args[0] == "folder":
+            if len(args) == 1:
+                return "Enter the folder name to move", "failed"
+            elif len(args) == 2:
+                return "Enter the destination path to move the folder", "failed"
+            elif len(args) == 3:
+                return move_folder(args[1], args[2]), "Success"
+            else:
+                return "Invalid move command", "failed"
+
+        else:
+            return "Move what?", "failed"
     else:
         return "Unknown command", "failed"
