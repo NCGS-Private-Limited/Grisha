@@ -1,5 +1,7 @@
+import shlex
+
 def command_split(command):
-    raw_input = command.split(" ")
+    raw_input = shlex.split(command)
 
     command = raw_input[0]
     args = raw_input[1:]

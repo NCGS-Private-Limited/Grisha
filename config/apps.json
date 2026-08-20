@@ -1,0 +1,3401 @@
+[
+    {
+        "name": "12030rocksdanister.LivelyWallpaper",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\12030rocksdanister.LivelyWallpaper_1.0.163.0_x64__97hta09mmv6hy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "12030rocksdanister.livelywallpaper",
+            "12030rocksdanisterlivelywallpaper"
+        ]
+    },
+    {
+        "name": "1527c705-839a-4832-9118-54d4Bd6a0c89",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.FilePicker_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "1527c705-839a-4832-9118-54d4bd6a0c89",
+            "1527c705839a4832911854d4bd6a0c89"
+        ]
+    },
+    {
+        "name": "5319275A.WhatsAppDesktop",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2631.102.0_x64__cv1g1gvanyjgm",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "5319275a.whatsappdesktop",
+            "5319275awhatsappdesktop"
+        ]
+    },
+    {
+        "name": "7-Zip File Manager",
+        "target": "C:\\Program Files\\7-Zip\\7zFM.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\7-Zip",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\7-Zip\\7-Zip File Manager.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "7-zip file manager",
+            "7fm",
+            "7zip",
+            "7zipfilemanager",
+            "file",
+            "manager"
+        ]
+    },
+    {
+        "name": "About Java",
+        "target": "C:\\Program Files\\Java\\jre-1.8\\bin\\javacpl.exe",
+        "arguments": "-tab about",
+        "working_directory": "C:\\Program Files\\Java\\jre-1.8\\bin",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Java\\About Java.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "about",
+            "about java",
+            "aboutjava",
+            "aj",
+            "java"
+        ]
+    },
+    {
+        "name": "AD2F1837.OMENCommandCenter",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\AD2F1837.OMENCommandCenter_1101.2607.3.0_x64__v10z8vjag6ke6",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "ad2f1837.omencommandcenter",
+            "ad2f1837omencommandcenter"
+        ]
+    },
+    {
+        "name": "Administrative Tools",
+        "target": "C:\\WINDOWS\\system32\\control.exe",
+        "arguments": "/name Microsoft.AdministrativeTools",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "administrative",
+            "administrative tools",
+            "administrativetools",
+            "at",
+            "tools"
+        ]
+    },
+    {
+        "name": "App Recovery",
+        "target": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe",
+        "arguments": "-recovery",
+        "working_directory": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\EA\\App Recovery.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "app",
+            "app recovery",
+            "apprecovery",
+            "ar",
+            "recovery"
+        ]
+    },
+    {
+        "name": "Application Verifier (WOW)",
+        "target": "C:\\Windows\\SysWOW64\\appverif.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\SysWOW64\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Application Verifier (X86)\\Application Verifier (WOW).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "application",
+            "application verifier (wow)",
+            "applicationverifierwow",
+            "avw",
+            "verifier",
+            "wow"
+        ]
+    },
+    {
+        "name": "Application Verifier (X64)",
+        "target": "C:\\Windows\\System32\\appverif.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Application Verifier (X64)\\Application Verifier (X64).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "application",
+            "application verifier (x64)",
+            "applicationverifierx64",
+            "avx",
+            "verifier",
+            "x64"
+        ]
+    },
+    {
+        "name": "AppUp.IntelGraphicsExperience",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "appup.intelgraphicsexperience",
+            "appupintelgraphicsexperience"
+        ]
+    },
+    {
+        "name": "Bitburner",
+        "target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Bitburner\\bitburner.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Bitburner",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "bitburner"
+        ]
+    },
+    {
+        "name": "Blackmagic Proxy Generator Lite",
+        "target": "C:\\editor\\editor_main\\Resolve.exe",
+        "arguments": "-pg",
+        "working_directory": "C:\\editor\\editor_main\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Blackmagic Design\\DaVinci Resolve\\Blackmagic Proxy Generator Lite.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "blackmagic",
+            "blackmagic proxy generator lite",
+            "blackmagicproxygeneratorlite",
+            "bpgl",
+            "generator",
+            "lite",
+            "proxy"
+        ]
+    },
+    {
+        "name": "Blackmagic RAW Player",
+        "target": "C:\\Program Files (x86)\\Blackmagic Design\\Blackmagic RAW\\Blackmagic RAW Player\\BlackmagicRAWPlayer.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Blackmagic Design\\Blackmagic RAW\\Blackmagic RAW Player\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Blackmagic Design\\Blackmagic RAW\\Blackmagic RAW Player.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "blackmagic",
+            "blackmagic raw player",
+            "blackmagicrawplayer",
+            "brp",
+            "player",
+            "raw"
+        ]
+    },
+    {
+        "name": "Blackmagic RAW Speed Test",
+        "target": "C:\\Program Files (x86)\\Blackmagic Design\\Blackmagic RAW\\Blackmagic RAW Speed Test\\BlackmagicRAWSpeedTest.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Blackmagic Design\\Blackmagic RAW\\Blackmagic RAW Speed Test\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Blackmagic Design\\Blackmagic RAW\\Blackmagic RAW Speed Test.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "blackmagic",
+            "blackmagic raw speed test",
+            "blackmagicrawspeedtest",
+            "brst",
+            "raw",
+            "speed",
+            "test"
+        ]
+    },
+    {
+        "name": "c5e2524a-ea46-4f67-841f-6a9465d9d515",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.FileExplorer_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "c5e2524a-ea46-4f67-841f-6a9465d9d515",
+            "c5e2524aea464f67841f6a9465d9d515"
+        ]
+    },
+    {
+        "name": "Character Map",
+        "target": "C:\\WINDOWS\\system32\\charmap.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\System Tools\\Character Map.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "character",
+            "character map",
+            "charactermap",
+            "cm",
+            "map"
+        ]
+    },
+    {
+        "name": "Chatgpt",
+        "target": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "arguments": "\"-taskbar-tab\" \"e15afd96-3475-401a-a920-9138ec15a881\" \"-new-window\" \"https://chatgpt.com\" \"-profile\" \"C:\\Users\\gamin\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\hncdspy8.default-release\" \"-container\" \"0\" ",
+        "working_directory": "C:\\Program Files\\Mozilla Firefox",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Firefox Web Apps\\Chatgpt.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "chatgpt"
+        ]
+    },
+    {
+        "name": "CLion 2026.1.2",
+        "target": "C:\\Program Files\\JetBrains\\CLion 2026.1.2\\bin\\clion64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\JetBrains\\CLion 2026.1.2",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\CLion 2026.1.2.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "202612",
+            "c2",
+            "clion",
+            "clion 2026.1.2",
+            "clion202612"
+        ]
+    },
+    {
+        "name": "Command Prompt",
+        "target": "C:\\WINDOWS\\system32\\cmd.exe",
+        "arguments": "",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Command Prompt.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "command",
+            "command prompt",
+            "commandprompt",
+            "cp",
+            "prompt"
+        ]
+    },
+    {
+        "name": "Control Panel",
+        "target": "C:\\Program Files\\Thrustmaster\\FFB Racing wheel\\drivers\\tmjoycpl.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Thrustmaster\\FFB Racing wheel\\drivers\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Thrustmaster FFB Racing wheel\\Control Panel.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "control",
+            "control panel",
+            "controlpanel",
+            "cp",
+            "panel"
+        ]
+    },
+    {
+        "name": "DaVinci Control Panels",
+        "target": "C:\\Program Files (x86)\\Blackmagic Design\\DaVinci Control Panels\\Setup Utility\\DaVinci Control Panels Setup.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Blackmagic Design\\DaVinci Control Panels\\Setup Utility\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Blackmagic Design\\DaVinci Resolve\\DaVinci Control Panels.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "control",
+            "davinci",
+            "davinci control panels",
+            "davincicontrolpanels",
+            "dcp",
+            "panels"
+        ]
+    },
+    {
+        "name": "dfrgui",
+        "target": "C:\\WINDOWS\\system32\\dfrgui.exe",
+        "arguments": "",
+        "working_directory": "%systemroot%\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\dfrgui.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "dfrgui"
+        ]
+    },
+    {
+        "name": "Discord",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Discord\\Update.exe",
+        "arguments": "--processStart Discord.exe",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9211",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "discord"
+        ]
+    },
+    {
+        "name": "Disk Cleanup",
+        "target": "C:\\WINDOWS\\system32\\cleanmgr.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Disk Cleanup.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "cleanup",
+            "dc",
+            "disk",
+            "disk cleanup",
+            "diskcleanup"
+        ]
+    },
+    {
+        "name": "E2A4F912-2574-4A75-9BB0-0D023378592B",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "e2a4f912-2574-4a75-9bb0-0d023378592b",
+            "e2a4f91225744a759bb00d023378592b"
+        ]
+    },
+    {
+        "name": "EA app Updater",
+        "target": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EAUpdater.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\EA\\EA app Updater.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "app",
+            "ea",
+            "ea app updater",
+            "eaappupdater",
+            "eau",
+            "updater"
+        ]
+    },
+    {
+        "name": "EA Error Reporter",
+        "target": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\ErrorReporter.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\EA\\EA Error Reporter.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "ea",
+            "ea error reporter",
+            "eaerrorreporter",
+            "eer",
+            "error",
+            "reporter"
+        ]
+    },
+    {
+        "name": "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "f46d4000-fd22-4db4-ac8e-4e1ddde828fe",
+            "f46d4000fd224db4ac8e4e1ddde828fe"
+        ]
+    },
+    {
+        "name": "Fairlight Audio Accelerator Utility",
+        "target": "C:\\Program Files\\Blackmagic Design\\DaVinci Resolve\\audio\\Fairlight Audio Accelerator\\unins000.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Blackmagic Design\\DaVinci Resolve\\audio\\Fairlight Audio Accelerator",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "accelerator",
+            "audio",
+            "faau",
+            "fairlight",
+            "fairlight audio accelerator utility",
+            "fairlightaudioacceleratorutility",
+            "utility"
+        ]
+    },
+    {
+        "name": "Fairlight Studio Utility",
+        "target": "C:\\Program Files (x86)\\Blackmagic Design\\DaVinci Control Panels\\Fairlight Studio Utility\\Fairlight Studio Utility.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Blackmagic Design\\DaVinci Control Panels\\Fairlight Studio Utility\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Blackmagic Design\\DaVinci Resolve\\Fairlight Studio Utility.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "fairlight",
+            "fairlight studio utility",
+            "fairlightstudioutility",
+            "fsu",
+            "studio",
+            "utility"
+        ]
+    },
+    {
+        "name": "FFB Racing Wheel drivers",
+        "target": "C:\\Program Files\\Thrustmaster\\FFB Racing wheel\\drivers\\tmInstallHelper.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Thrustmaster\\FFB Racing wheel\\drivers",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "drivers",
+            "ffb",
+            "ffb racing wheel drivers",
+            "ffbracingwheeldrivers",
+            "frwd",
+            "racing",
+            "wheel"
+        ]
+    },
+    {
+        "name": "Firefox Private Browsing",
+        "target": "C:\\Program Files\\Mozilla Firefox\\private_browsing.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Mozilla Firefox",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Firefox Private Browsing.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "browsing",
+            "firefox",
+            "firefox private browsing",
+            "firefoxprivatebrowsing",
+            "fpb",
+            "private"
+        ]
+    },
+    {
+        "name": "Firmware Update",
+        "target": "C:\\Program Files\\Guillemot\\tmfwupdater\\tmStartFUW.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Guillemot\\tmfwupdater\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Thrustmaster FFB Racing wheel\\Firmware Update.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "firmware",
+            "firmware update",
+            "firmwareupdate",
+            "fu",
+            "update"
+        ]
+    },
+    {
+        "name": "Gaming Mouse Driver",
+        "target": "C:\\Program Files (x86)\\Gaming Mouse\\Monitor.exe",
+        "arguments": "1",
+        "working_directory": "C:\\Program Files (x86)\\Gaming Mouse",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Gaming Mouse\\Gaming Mouse Driver.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "driver",
+            "gaming",
+            "gaming mouse driver",
+            "gamingmousedriver",
+            "gmd",
+            "mouse"
+        ]
+    },
+    {
+        "name": "Git Bash",
+        "target": "C:\\Program Files\\Git\\git-bash.exe",
+        "arguments": "--cd-to-home",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git Bash.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "bash",
+            "gb",
+            "git",
+            "git bash",
+            "gitbash"
+        ]
+    },
+    {
+        "name": "Git CMD",
+        "target": "C:\\Program Files\\Git\\git-cmd.exe",
+        "arguments": "--cd-to-home",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git CMD.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "cmd",
+            "gc",
+            "git",
+            "git cmd",
+            "gitcmd"
+        ]
+    },
+    {
+        "name": "Git for Windows",
+        "target": "C:\\Program Files\\Git\\mingw64\\bin\\wintoast.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Git\\mingw64\\bin\\wintoast.exe",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Git for Windows.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "for",
+            "gfw",
+            "git",
+            "git for windows",
+            "gitforwindows",
+            "windows"
+        ]
+    },
+    {
+        "name": "Git GUI",
+        "target": "C:\\Program Files\\Git\\cmd\\git-gui.exe",
+        "arguments": "",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git GUI.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "gg",
+            "git",
+            "git gui",
+            "gitgui",
+            "gui"
+        ]
+    },
+    {
+        "name": "GPUView",
+        "target": "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\gpuview\\GPUView.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Windows Performance Toolkit\\GPUView.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "gpuview"
+        ]
+    },
+    {
+        "name": "HP Update",
+        "target": "C:\\Program Files (x86)\\HP\\HP Software Update\\hpwucli.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Hp\\HP Software Update\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\HP\\HP Update.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "hp",
+            "hp update",
+            "hpupdate",
+            "hu",
+            "update"
+        ]
+    },
+    {
+        "name": "IDLE (Python 3.10 64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\pythonw.exe",
+        "arguments": "\"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\idlelib\\idle.pyw\"",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "310",
+            "64bit",
+            "idle",
+            "idle (python 3.10 64-bit)",
+            "idlepython31064bit",
+            "ip36",
+            "python"
+        ]
+    },
+    {
+        "name": "IDLE (Python 3.11 64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python311\\pythonw.exe",
+        "arguments": "\"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\idlelib\\idle.pyw\"",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python311\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.11\\IDLE (Python 3.11 64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "311",
+            "64bit",
+            "idle",
+            "idle (python 3.11 64-bit)",
+            "idlepython31164bit",
+            "ip36",
+            "python"
+        ]
+    },
+    {
+        "name": "IDLE (Python 3.13 64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+        "arguments": "\"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\idlelib\\idle.pyw\"",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python313\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.13\\IDLE (Python 3.13 64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "313",
+            "64bit",
+            "idle",
+            "idle (python 3.13 64-bit)",
+            "idlepython31364bit",
+            "ip36",
+            "python"
+        ]
+    },
+    {
+        "name": "IDLE (Python 3.14)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Python\\pythoncore-3.14-64\\pythonw.exe",
+        "arguments": "\"C:\\Users\\gamin\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\idlelib\\idle.pyw\"",
+        "working_directory": "C:\\Users\\gamin\\Documents",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python\\Python 3.14\\IDLE (Python 3.14).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "314",
+            "idle",
+            "idle (python 3.14)",
+            "idlepython314",
+            "ip3",
+            "python"
+        ]
+    },
+    {
+        "name": "IntelliJ IDEA 2026.1.1",
+        "target": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1.1\\bin\\idea64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1.1",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\IntelliJ IDEA 2026.1.1.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "202611",
+            "idea",
+            "ii2",
+            "intellij",
+            "intellij idea 2026.1.1",
+            "intellijidea202611"
+        ]
+    },
+    {
+        "name": "iSCSI Initiator",
+        "target": "C:\\WINDOWS\\system32\\iscsicpl.exe",
+        "arguments": "",
+        "working_directory": "%windir%\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\iSCSI Initiator.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "ii",
+            "initiator",
+            "iscsi",
+            "iscsi initiator",
+            "iscsiinitiator"
+        ]
+    },
+    {
+        "name": "Java 8 Update 401 (64-bit)",
+        "target": "C:\\Program Files\\Java\\jre-1.8\\bin\\jabswitch.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Java\\jre-1.8\\bin",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "401",
+            "64bit",
+            "8",
+            "j8u46",
+            "java",
+            "java 8 update 401 (64-bit)",
+            "java8update40164bit",
+            "update"
+        ]
+    },
+    {
+        "name": "LiveCaptions",
+        "target": "C:\\WINDOWS\\system32\\LiveCaptions.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\LiveCaptions.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "livecaptions"
+        ]
+    },
+    {
+        "name": "Magnify",
+        "target": "C:\\WINDOWS\\system32\\magnify.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Magnify.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "magnify"
+        ]
+    },
+    {
+        "name": "Memory Diagnostics Tool",
+        "target": "C:\\WINDOWS\\system32\\MdSched.exe",
+        "arguments": "",
+        "working_directory": "%windir%\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Memory Diagnostics Tool.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "diagnostics",
+            "mdt",
+            "memory",
+            "memory diagnostics tool",
+            "memorydiagnosticstool",
+            "tool"
+        ]
+    },
+    {
+        "name": "Microsoft Edge",
+        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Edge.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "edge",
+            "me",
+            "microsoft",
+            "microsoft edge",
+            "microsoftedge"
+        ]
+    },
+    {
+        "name": "Microsoft Edge",
+        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.93\\msedge.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.93",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "edge",
+            "me",
+            "microsoft",
+            "microsoft edge",
+            "microsoftedge"
+        ]
+    },
+    {
+        "name": "Microsoft Edge WebView2 Runtime",
+        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.93\\msedgewebview2.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.93",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "edge",
+            "mewr",
+            "microsoft",
+            "microsoft edge webview2 runtime",
+            "microsoftedgewebview2runtime",
+            "runtime",
+            "webview2"
+        ]
+    },
+    {
+        "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+        "target": "C:\\ProgramData\\Package Cache\\{d8bbe9f9-7c5b-42c6-b715-9ee898a2e515}\\VC_redist.x64.exe",
+        "arguments": "",
+        "working_directory": "C:\\ProgramData\\Package Cache\\{d8bbe9f9-7c5b-42c6-b715-9ee898a2e515}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "144435211",
+            "20152022",
+            "c",
+            "microsoft",
+            "microsoft visual c++ 2015-2022 redistributable (x64) - 14.44.35211",
+            "microsoftvisualc20152022redistributablex64144435211",
+            "mvc2rx1",
+            "redistributable",
+            "visual",
+            "x64"
+        ]
+    },
+    {
+        "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+        "target": "C:\\ProgramData\\Package Cache\\{0b5169e3-39da-4313-808e-1f9c0407f3bf}\\VC_redist.x86.exe",
+        "arguments": "",
+        "working_directory": "C:\\ProgramData\\Package Cache\\{0b5169e3-39da-4313-808e-1f9c0407f3bf}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "144435211",
+            "20152022",
+            "c",
+            "microsoft",
+            "microsoft visual c++ 2015-2022 redistributable (x86) - 14.44.35211",
+            "microsoftvisualc20152022redistributablex86144435211",
+            "mvc2rx1",
+            "redistributable",
+            "visual",
+            "x86"
+        ]
+    },
+    {
+        "name": "Microsoft.AAD.BrokerPlugin",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.aad.brokerplugin",
+            "microsoftaadbrokerplugin"
+        ]
+    },
+    {
+        "name": "Microsoft.AccountsControl",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.AccountsControl_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.accountscontrol",
+            "microsoftaccountscontrol"
+        ]
+    },
+    {
+        "name": "Microsoft.AIFabric.CBS.1.6",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.AIFabric.CBS.1.6_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.aifabric.cbs.1.6",
+            "microsoftaifabriccbs16"
+        ]
+    },
+    {
+        "name": "Microsoft.ApplicationCompatibilityEnhancements",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ApplicationCompatibilityEnhancements_1.2511.9.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.applicationcompatibilityenhancements",
+            "microsoftapplicationcompatibilityenhancements"
+        ]
+    },
+    {
+        "name": "Microsoft.AsyncTextService",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.AsyncTextService_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.asynctextservice",
+            "microsoftasynctextservice"
+        ]
+    },
+    {
+        "name": "Microsoft.AV1VideoExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.AV1VideoExtension_2.0.30.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.av1videoextension",
+            "microsoftav1videoextension"
+        ]
+    },
+    {
+        "name": "Microsoft.AVCEncoderVideoExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.AVCEncoderVideoExtension_1.1.23.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.avcencodervideoextension",
+            "microsoftavcencodervideoextension"
+        ]
+    },
+    {
+        "name": "Microsoft.BingNews",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.BingNews_4.56.21872.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.bingnews",
+            "microsoftbingnews"
+        ]
+    },
+    {
+        "name": "Microsoft.BingSearch",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.BingSearch_1.1.43.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.bingsearch",
+            "microsoftbingsearch"
+        ]
+    },
+    {
+        "name": "Microsoft.BingWeather",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63045.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.bingweather",
+            "microsoftbingweather"
+        ]
+    },
+    {
+        "name": "Microsoft.BioEnrollment",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.BioEnrollment_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.bioenrollment",
+            "microsoftbioenrollment"
+        ]
+    },
+    {
+        "name": "Microsoft.CommandPalette",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.CommandPalette_0.11.11601.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.commandpalette",
+            "microsoftcommandpalette"
+        ]
+    },
+    {
+        "name": "Microsoft.CredDialogHost",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\microsoft.creddialoghost_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.creddialoghost",
+            "microsoftcreddialoghost"
+        ]
+    },
+    {
+        "name": "Microsoft.DesktopAppInstaller",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.29.290.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.desktopappinstaller",
+            "microsoftdesktopappinstaller"
+        ]
+    },
+    {
+        "name": "Microsoft.ECApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.ecapp",
+            "microsoftecapp"
+        ]
+    },
+    {
+        "name": "Microsoft.Edge.GameAssist",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Edge.GameAssist_1.0.4019.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.edge.gameassist",
+            "microsoftedgegameassist"
+        ]
+    },
+    {
+        "name": "Microsoft.GamingApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2608.1001.17.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.gamingapp",
+            "microsoftgamingapp"
+        ]
+    },
+    {
+        "name": "Microsoft.GamingServices",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_38.116.6003.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.gamingservices",
+            "microsoftgamingservices"
+        ]
+    },
+    {
+        "name": "Microsoft.GetHelp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.42092.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.gethelp",
+            "microsoftgethelp"
+        ]
+    },
+    {
+        "name": "Microsoft.HEIFImageExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.HEIFImageExtension_1.2.48.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.heifimageextension",
+            "microsoftheifimageextension"
+        ]
+    },
+    {
+        "name": "Microsoft.HEVCVideoExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.HEVCVideoExtension_2.5.10.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.hevcvideoextension",
+            "microsofthevcvideoextension"
+        ]
+    },
+    {
+        "name": "Microsoft.Ink.Handwriting.en-US.1.0",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Ink.Handwriting.en-US.1.0_0.1248.2215.0_x86__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.ink.handwriting.en-us.1.0",
+            "microsoftinkhandwritingenus10"
+        ]
+    },
+    {
+        "name": "Microsoft.Ink.Handwriting.Main.en-US.1.0.1",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Ink.Handwriting.Main.en-US.1.0.1_0.1248.2215.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.ink.handwriting.main.en-us.1.0.1",
+            "microsoftinkhandwritingmainenus101"
+        ]
+    },
+    {
+        "name": "Microsoft.LockApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.lockapp",
+            "microsoftlockapp"
+        ]
+    },
+    {
+        "name": "Microsoft.MicrosoftEdge.Stable",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_151.0.4129.93_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.microsoftedge.stable",
+            "microsoftmicrosoftedgestable"
+        ]
+    },
+    {
+        "name": "Microsoft.MicrosoftEdgeDevToolsClient",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.microsoftedgedevtoolsclient",
+            "microsoftmicrosoftedgedevtoolsclient"
+        ]
+    },
+    {
+        "name": "Microsoft.MicrosoftOfficeHub",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.41021.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.microsoftofficehub",
+            "microsoftmicrosoftofficehub"
+        ]
+    },
+    {
+        "name": "Microsoft.MicrosoftSolitaireCollection",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.26.7290.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.microsoftsolitairecollection",
+            "microsoftmicrosoftsolitairecollection"
+        ]
+    },
+    {
+        "name": "Microsoft.MicrosoftStickyNotes",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftStickyNotes_4.0.6104.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.microsoftstickynotes",
+            "microsoftmicrosoftstickynotes"
+        ]
+    },
+    {
+        "name": "Microsoft.MPEG2VideoExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MPEG2VideoExtension_1.2.13.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.mpeg2videoextension",
+            "microsoftmpeg2videoextension"
+        ]
+    },
+    {
+        "name": "Microsoft.NET.Native.Framework.2.2",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.net.native.framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.net.native.framework.2.2",
+            "microsoftnetnativeframework22"
+        ]
+    },
+    {
+        "name": "Microsoft.NET.Native.Runtime.2.2",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.net.native.runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.net.native.runtime.2.2",
+            "microsoftnetnativeruntime22"
+        ]
+    },
+    {
+        "name": "Microsoft.OneDriveSync",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.OneDriveSync_25164.824.3.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.onedrivesync",
+            "microsoftonedrivesync"
+        ]
+    },
+    {
+        "name": "Microsoft.OutlookForWindows",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2026.728.100_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.outlookforwindows",
+            "microsoftoutlookforwindows"
+        ]
+    },
+    {
+        "name": "Microsoft.Paint",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2605.71.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.paint",
+            "microsoftpaint"
+        ]
+    },
+    {
+        "name": "Microsoft.PowerAutomateDesktop",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.PowerAutomateDesktop_11.2607.187.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.powerautomatedesktop",
+            "microsoftpowerautomatedesktop"
+        ]
+    },
+    {
+        "name": "Microsoft.PowerToys.FileLocksmithContextMenu",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys.FileLocksmithContextMenu_0.100.0.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.powertoys.filelocksmithcontextmenu",
+            "microsoftpowertoysfilelocksmithcontextmenu"
+        ]
+    },
+    {
+        "name": "Microsoft.PowerToys.ImageResizerContextMenu",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys.ImageResizerContextMenu_0.100.0.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.powertoys.imageresizercontextmenu",
+            "microsoftpowertoysimageresizercontextmenu"
+        ]
+    },
+    {
+        "name": "Microsoft.PowerToys.NewPlusContextMenu",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys.NewPlusContextMenu_0.100.0.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.powertoys.newpluscontextmenu",
+            "microsoftpowertoysnewpluscontextmenu"
+        ]
+    },
+    {
+        "name": "Microsoft.PowerToys.PowerRenameContextMenu",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys.PowerRenameContextMenu_0.100.0.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.powertoys.powerrenamecontextmenu",
+            "microsoftpowertoyspowerrenamecontextmenu"
+        ]
+    },
+    {
+        "name": "Microsoft.PowerToys.SparseApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys.SparseApp_0.100.0.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.powertoys.sparseapp",
+            "microsoftpowertoyssparseapp"
+        ]
+    },
+    {
+        "name": "Microsoft.RawImageExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.RawImageExtension_2.5.24.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.rawimageextension",
+            "microsoftrawimageextension"
+        ]
+    },
+    {
+        "name": "Microsoft.ScreenSketch",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2602.49.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.screensketch",
+            "microsoftscreensketch"
+        ]
+    },
+    {
+        "name": "Microsoft.SecHealthUI",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.SecHealthUI_1000.29628.1000.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.sechealthui",
+            "microsoftsechealthui"
+        ]
+    },
+    {
+        "name": "Microsoft.Services.Store.Engagement",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.services.store.engagement_10.0.23012.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.services.store.engagement",
+            "microsoftservicesstoreengagement"
+        ]
+    },
+    {
+        "name": "Microsoft.StartExperiencesApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.380.2.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.startexperiencesapp",
+            "microsoftstartexperiencesapp"
+        ]
+    },
+    {
+        "name": "Microsoft.StorePurchaseApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22606.1401.3.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.storepurchaseapp",
+            "microsoftstorepurchaseapp"
+        ]
+    },
+    {
+        "name": "Microsoft.Todos",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Todos_2.176.7601.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.todos",
+            "microsofttodos"
+        ]
+    },
+    {
+        "name": "Microsoft.UI.Xaml.2.7",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.7_7.2409.9001.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.ui.xaml.2.7",
+            "microsoftuixaml27"
+        ]
+    },
+    {
+        "name": "Microsoft.UI.Xaml.2.8",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.ui.xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.ui.xaml.2.8",
+            "microsoftuixaml28"
+        ]
+    },
+    {
+        "name": "Microsoft.UI.Xaml.CBS",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.ui.xaml.cbs",
+            "microsoftuixamlcbs"
+        ]
+    },
+    {
+        "name": "Microsoft.VCLibs.140.00",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.vclibs.140.00",
+            "microsoftvclibs14000"
+        ]
+    },
+    {
+        "name": "Microsoft.VCLibs.140.00.UWPDesktop",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.vclibs.140.00.uwpdesktop",
+            "microsoftvclibs14000uwpdesktop"
+        ]
+    },
+    {
+        "name": "Microsoft.VisualStudioCode",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.VisualStudioCode_1.0.130.0_neutral__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.visualstudiocode",
+            "microsoftvisualstudiocode"
+        ]
+    },
+    {
+        "name": "Microsoft.VP9VideoExtensions",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.VP9VideoExtensions_1.2.20.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.vp9videoextensions",
+            "microsoftvp9videoextensions"
+        ]
+    },
+    {
+        "name": "Microsoft.WebMediaExtensions",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_2.1.38.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.webmediaextensions",
+            "microsoftwebmediaextensions"
+        ]
+    },
+    {
+        "name": "Microsoft.WebpImageExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WebpImageExtension_1.2.14.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.webpimageextension",
+            "microsoftwebpimageextension"
+        ]
+    },
+    {
+        "name": "Microsoft.Whiteboard",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Whiteboard_56.20201.588.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.whiteboard",
+            "microsoftwhiteboard"
+        ]
+    },
+    {
+        "name": "Microsoft.WidgetsPlatformRuntime",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.widgetsplatformruntime",
+            "microsoftwidgetsplatformruntime"
+        ]
+    },
+    {
+        "name": "Microsoft.Win32WebViewHost",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Win32WebViewHost_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.win32webviewhost",
+            "microsoftwin32webviewhost"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.Apprep.ChxApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.apprep.chxapp",
+            "microsoftwindowsapprepchxapp"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.AugLoop.CBS",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.augloop.cbs",
+            "microsoftwindowsaugloopcbs"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.CapturePicker",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.CapturePicker_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.capturepicker",
+            "microsoftwindowscapturepicker"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.CloudExperienceHost",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.cloudexperiencehost",
+            "microsoftwindowscloudexperiencehost"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.ContentDeliveryManager",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.contentdeliverymanager",
+            "microsoftwindowscontentdeliverymanager"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.DevHome",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.DevHome_0.2100.858.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.devhome",
+            "microsoftwindowsdevhome"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.NarratorQuickStart",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\microsoft.windows.narratorquickstart_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.narratorquickstart",
+            "microsoftwindowsnarratorquickstart"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.OOBENetworkCaptivePortal",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.oobenetworkcaptiveportal",
+            "microsoftwindowsoobenetworkcaptiveportal"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.OOBENetworkConnectionFlow",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.oobenetworkconnectionflow",
+            "microsoftwindowsoobenetworkconnectionflow"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.ParentalControls",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\ParentalControls_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.parentalcontrols",
+            "microsoftwindowsparentalcontrols"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.PeopleExperienceHost",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.peopleexperiencehost",
+            "microsoftwindowspeopleexperiencehost"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.Photos",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2026.11060.2004.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.photos",
+            "microsoftwindowsphotos"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.PinningConfirmationDialog",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.pinningconfirmationdialog",
+            "microsoftwindowspinningconfirmationdialog"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.PrintQueueActionCenter",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.printqueueactioncenter",
+            "microsoftwindowsprintqueueactioncenter"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.ShellExperienceHost",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.shellexperiencehost",
+            "microsoftwindowsshellexperiencehost"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.StartMenuExperienceHost",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.startmenuexperiencehost",
+            "microsoftwindowsstartmenuexperiencehost"
+        ]
+    },
+    {
+        "name": "Microsoft.Windows.XGpuEjectDialog",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windows.xgpuejectdialog",
+            "microsoftwindowsxgpuejectdialog"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAlarms",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2606.11.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsalarms",
+            "microsoftwindowsalarms"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.1.1",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.windowsappruntime.1.1_1005.616.1651.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.1.1",
+            "microsoftwindowsappruntime11"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.1.2",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.2_2000.802.31.0_x86__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.1.2",
+            "microsoftwindowsappruntime12"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.1.5",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.windowsappruntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.1.5",
+            "microsoftwindowsappruntime15"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.1.6",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\microsoft.windowsappruntime.1.6_6000.519.329.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.1.6",
+            "microsoftwindowsappruntime16"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.1.7",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.7_7000.785.2325.0_x86__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.1.7",
+            "microsoftwindowsappruntime17"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.1.8",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.8_8000.946.1701.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.1.8",
+            "microsoftwindowsappruntime18"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.2",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.2_2.4.0.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.2",
+            "microsoftwindowsappruntime2"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.CBS.1.6",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.cbs.1.6",
+            "microsoftwindowsappruntimecbs16"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsAppRuntime.CBS.2",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS.2_8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsappruntime.cbs.2",
+            "microsoftwindowsappruntimecbs2"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsCalculator",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2606.0.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowscalculator",
+            "microsoftwindowscalculator"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsCamera",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2026.2605.7.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowscamera",
+            "microsoftwindowscamera"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsFeedbackHub",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_2.2606.703.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsfeedbackhub",
+            "microsoftwindowsfeedbackhub"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsNotepad",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2606.15.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsnotepad",
+            "microsoftwindowsnotepad"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsSoundRecorder",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_11.2606.0.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowssoundrecorder",
+            "microsoftwindowssoundrecorder"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsStore",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22606.1401.13.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsstore",
+            "microsoftwindowsstore"
+        ]
+    },
+    {
+        "name": "Microsoft.WindowsTerminal",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.windowsterminal",
+            "microsoftwindowsterminal"
+        ]
+    },
+    {
+        "name": "Microsoft.Xbox.TCUI",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.xbox.tcui",
+            "microsoftxboxtcui"
+        ]
+    },
+    {
+        "name": "Microsoft.XboxGameCallableUI",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.xboxgamecallableui",
+            "microsoftxboxgamecallableui"
+        ]
+    },
+    {
+        "name": "Microsoft.XboxGamingOverlay",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.326.7271.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.xboxgamingoverlay",
+            "microsoftxboxgamingoverlay"
+        ]
+    },
+    {
+        "name": "Microsoft.XboxIdentityProvider",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.xboxidentityprovider",
+            "microsoftxboxidentityprovider"
+        ]
+    },
+    {
+        "name": "Microsoft.XboxSpeechToTextOverlay",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.xboxspeechtotextoverlay",
+            "microsoftxboxspeechtotextoverlay"
+        ]
+    },
+    {
+        "name": "Microsoft.YourPhone",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26071.164.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.yourphone",
+            "microsoftyourphone"
+        ]
+    },
+    {
+        "name": "Microsoft.ZuneMusic",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2606.19.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoft.zunemusic",
+            "microsoftzunemusic"
+        ]
+    },
+    {
+        "name": "MicrosoftCorporationII.MicrosoftFamily",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.MicrosoftFamily_0.2.40.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftcorporationii.microsoftfamily",
+            "microsoftcorporationiimicrosoftfamily"
+        ]
+    },
+    {
+        "name": "MicrosoftCorporationII.QuickAssist",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.QuickAssist_2.0.29.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftcorporationii.quickassist",
+            "microsoftcorporationiiquickassist"
+        ]
+    },
+    {
+        "name": "MicrosoftCorporationII.WinAppRuntime.Main.1.8",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8000.921.1539.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftcorporationii.winappruntime.main.1.8",
+            "microsoftcorporationiiwinappruntimemain18"
+        ]
+    },
+    {
+        "name": "MicrosoftCorporationII.WinAppRuntime.Main.2",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.2_2.3.1.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftcorporationii.winappruntime.main.2",
+            "microsoftcorporationiiwinappruntimemain2"
+        ]
+    },
+    {
+        "name": "MicrosoftCorporationII.WinAppRuntime.Singleton",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Singleton_8002.4.0.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftcorporationii.winappruntime.singleton",
+            "microsoftcorporationiiwinappruntimesingleton"
+        ]
+    },
+    {
+        "name": "MicrosoftCorporationII.WindowsSubsystemForLinux",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.10.0_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftcorporationii.windowssubsystemforlinux",
+            "microsoftcorporationiiwindowssubsystemforlinux"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.61869720.Voiess",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\SxS\\MicrosoftWindows.61869720.Voiess_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.61869720.voiess",
+            "microsoftwindows61869720voiess"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.61869721.Livtop",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\SxS\\MicrosoftWindows.61869721.Livtop_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.61869721.livtop",
+            "microsoftwindows61869721livtop"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.61869722.Speion",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\SxS\\MicrosoftWindows.61869722.Speion_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.61869722.speion",
+            "microsoftwindows61869722speion"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.61869836.InpApp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\SxS\\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.61869836.inpapp",
+            "microsoftwindows61869836inpapp"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.CBS",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.cbs",
+            "microsoftwindowsclientcbs"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.Core",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.Core_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.core",
+            "microsoftwindowsclientcore"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.CoreAI",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.coreai",
+            "microsoftwindowsclientcoreai"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.FileExp",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.fileexp",
+            "microsoftwindowsclientfileexp"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.OOBE",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.oobe",
+            "microsoftwindowsclientoobe"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.Photon",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.Photon_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.photon",
+            "microsoftwindowsclientphoton"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.Client.WebExperience",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.21100.40.0_x64__cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.client.webexperience",
+            "microsoftwindowsclientwebexperience"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.CrossDevice",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26062.105.0_x64__cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.crossdevice",
+            "microsoftwindowscrossdevice"
+        ]
+    },
+    {
+        "name": "MicrosoftWindows.UndockedDevKit",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "microsoftwindows.undockeddevkit",
+            "microsoftwindowsundockeddevkit"
+        ]
+    },
+    {
+        "name": "Mozilla Maintenance Service",
+        "target": "C:\\Program Files (x86)\\Mozilla Maintenance Service\\Uninstall.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Mozilla Maintenance Service",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "maintenance",
+            "mms",
+            "mozilla",
+            "mozilla maintenance service",
+            "mozillamaintenanceservice",
+            "service"
+        ]
+    },
+    {
+        "name": "MSTeams",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\msteams_25094.310.3616.953_x64__8wekyb3d8bbwe",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "msteams"
+        ]
+    },
+    {
+        "name": "Narrator",
+        "target": "C:\\WINDOWS\\system32\\narrator.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "narrator"
+        ]
+    },
+    {
+        "name": "Need for Speed Heat",
+        "target": "C:\\games\\nfs heat\\Need for Speed Heat\\NeedForSpeedHeat.exe",
+        "arguments": "",
+        "working_directory": "C:\\games\\nfs heat\\Need for Speed Heat",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "for",
+            "heat",
+            "need",
+            "need for speed heat",
+            "needforspeedheat",
+            "nfsh",
+            "speed"
+        ]
+    },
+    {
+        "name": "Need for Speed™ Rivals",
+        "target": "C:\\games\\Rivals\\Need for Speed(TM) Rivals\\NFS14.exe",
+        "arguments": "",
+        "working_directory": "C:\\games\\Rivals\\Need for Speed(TM) Rivals",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "for",
+            "need",
+            "need for speed™ rivals",
+            "needforspeedrivals",
+            "nfsr",
+            "rivals",
+            "speed"
+        ]
+    },
+    {
+        "name": "Node.js",
+        "target": "C:\\Program Files\\nodejs\\node.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\nodejs\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Node.js\\Node.js.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "node.js",
+            "nodejs"
+        ]
+    },
+    {
+        "name": "Notion",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Notion\\Notion.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Notion",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Notion.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "notion"
+        ]
+    },
+    {
+        "name": "NVIDIA App",
+        "target": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA App.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\NVIDIA Corporation\\NVIDIA App.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "app",
+            "na",
+            "nvidia",
+            "nvidia app",
+            "nvidiaapp"
+        ]
+    },
+    {
+        "name": "NVIDIA Container",
+        "target": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\NVIDIA Corporation\\NvContainer",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "container",
+            "nc",
+            "nvidia",
+            "nvidia container",
+            "nvidiacontainer"
+        ]
+    },
+    {
+        "name": "NVIDIA FrameView SDK 1.8.12612.38276700",
+        "target": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK\\nvfvsdksvc_x64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "181261238276700",
+            "frameview",
+            "nfs1",
+            "nvidia",
+            "nvidia frameview sdk 1.8.12612.38276700",
+            "nvidiaframeviewsdk181261238276700",
+            "sdk"
+        ]
+    },
+    {
+        "name": "NVIDIA Install Application",
+        "target": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\InstallerCore\\SETUP.EXE",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\InstallerCore",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "application",
+            "install",
+            "nia",
+            "nvidia",
+            "nvidia install application",
+            "nvidiainstallapplication"
+        ]
+    },
+    {
+        "name": "NVIDIA ShadowPlay 11.0.8.0",
+        "target": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\ShadowPlay\\nvsphelper64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\ShadowPlay",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "11080",
+            "ns1",
+            "nvidia",
+            "nvidia shadowplay 11.0.8.0",
+            "nvidiashadowplay11080",
+            "shadowplay"
+        ]
+    },
+    {
+        "name": "NVIDIACorp.NVIDIAControlPanel",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\NVIDIACorp.NVIDIAControlPanel_8.1.969.0_x64__56jybvy8sckqj",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "nvidiacorp.nvidiacontrolpanel",
+            "nvidiacorpnvidiacontrolpanel"
+        ]
+    },
+    {
+        "name": "ODBC Data Sources (32-bit)",
+        "target": "C:\\WINDOWS\\syswow64\\odbcad32.exe",
+        "arguments": "",
+        "working_directory": "%windir%\\syswow64",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\ODBC Data Sources (32-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "32bit",
+            "data",
+            "odbc",
+            "odbc data sources (32-bit)",
+            "odbcdatasources32bit",
+            "ods3",
+            "sources"
+        ]
+    },
+    {
+        "name": "ODBC Data Sources (64-bit)",
+        "target": "C:\\WINDOWS\\system32\\odbcad32.exe",
+        "arguments": "",
+        "working_directory": "%windir%\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\ODBC Data Sources (64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "64bit",
+            "data",
+            "odbc",
+            "odbc data sources (64-bit)",
+            "odbcdatasources64bit",
+            "ods6",
+            "sources"
+        ]
+    },
+    {
+        "name": "On-Screen Keyboard",
+        "target": "C:\\WINDOWS\\system32\\osk.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\On-Screen Keyboard.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "keyboard",
+            "ok",
+            "on-screen keyboard",
+            "onscreen",
+            "onscreenkeyboard"
+        ]
+    },
+    {
+        "name": "OpenAI.ChatGPT-Desktop",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "openai.chatgpt-desktop",
+            "openaichatgptdesktop"
+        ]
+    },
+    {
+        "name": "OpenAI.Codex",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.810.7004.0_x64__2p2nqsd0c76g0",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "openai.codex",
+            "openaicodex"
+        ]
+    },
+    {
+        "name": "Oracle VirtualBox",
+        "target": "C:\\Program Files\\Oracle\\VirtualBox\\VirtualBox.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Oracle\\VirtualBox\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Oracle VirtualBox\\Oracle VirtualBox.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "oracle",
+            "oracle virtualbox",
+            "oraclevirtualbox",
+            "ov",
+            "virtualbox"
+        ]
+    },
+    {
+        "name": "PowerToys (Preview)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\PowerToys\\PowerToys.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\PowerToys\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\PowerToys (Preview)\\PowerToys (Preview).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "powertoys",
+            "powertoys (preview)",
+            "powertoyspreview",
+            "pp",
+            "preview"
+        ]
+    },
+    {
+        "name": "PowerToys (Preview)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\PowerToys\\FancyZonesCLI.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\PowerToys",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "powertoys",
+            "powertoys (preview)",
+            "powertoyspreview",
+            "pp",
+            "preview"
+        ]
+    },
+    {
+        "name": "PowerToys (Preview) x64",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{8C4F02F3-0206-4AFD-8620-A2E36E26E8CC}\\PowerToysUserSetup-0.100.0-x64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{8C4F02F3-0206-4AFD-8620-A2E36E26E8CC}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "powertoys",
+            "powertoys (preview) x64",
+            "powertoyspreviewx64",
+            "ppx",
+            "preview",
+            "x64"
+        ]
+    },
+    {
+        "name": "PyCharm 2025.1.3.1",
+        "target": "C:\\Program Files\\JetBrains\\PyCharm 2025.1.3.1\\bin\\pycharm64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\JetBrains\\PyCharm 2025.1.3.1\\bin",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\PyCharm 2025.1.3.1.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "2025131",
+            "p2",
+            "pycharm",
+            "pycharm 2025.1.3.1",
+            "pycharm2025131"
+        ]
+    },
+    {
+        "name": "PyDoc (Python 3.14)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "arguments": "-m pydoc -b",
+        "working_directory": "C:\\Users\\gamin\\Documents",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python\\Python 3.14\\PyDoc (Python 3.14).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "314",
+            "pp3",
+            "pydoc",
+            "pydoc (python 3.14)",
+            "pydocpython314",
+            "python"
+        ]
+    },
+    {
+        "name": "Python 3.10 (64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "310",
+            "64bit",
+            "p36",
+            "python",
+            "python 3.10 (64-bit)",
+            "python31064bit"
+        ]
+    },
+    {
+        "name": "Python 3.10 Manuals (64-bit)",
+        "target": "C:\\WINDOWS\\hh.exe",
+        "arguments": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\Doc\\python3100.chm",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python310\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "310",
+            "64bit",
+            "manuals",
+            "p3m6",
+            "python",
+            "python 3.10 manuals (64-bit)",
+            "python310manuals64bit"
+        ]
+    },
+    {
+        "name": "Python 3.10.0 (64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{21b42743-c8f9-49d7-b8b6-b5855317c7ed}\\python-3.10.0-amd64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{21b42743-c8f9-49d7-b8b6-b5855317c7ed}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "3100",
+            "64bit",
+            "p36",
+            "python",
+            "python 3.10.0 (64-bit)",
+            "python310064bit"
+        ]
+    },
+    {
+        "name": "Python 3.11 (64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python311\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.11\\Python 3.11 (64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "311",
+            "64bit",
+            "p36",
+            "python",
+            "python 3.11 (64-bit)",
+            "python31164bit"
+        ]
+    },
+    {
+        "name": "Python 3.11.0 (64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{7f8381ad-2e42-4432-8de5-c7beebe1009f}\\python-3.11.0-amd64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{7f8381ad-2e42-4432-8de5-c7beebe1009f}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "3110",
+            "64bit",
+            "p36",
+            "python",
+            "python 3.11.0 (64-bit)",
+            "python311064bit"
+        ]
+    },
+    {
+        "name": "Python 3.13 (64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python313\\",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.13\\Python 3.13 (64-bit).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "313",
+            "64bit",
+            "p36",
+            "python",
+            "python 3.13 (64-bit)",
+            "python31364bit"
+        ]
+    },
+    {
+        "name": "Python 3.13.5 (64-bit)",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{2a612b01-6a34-408a-b31b-2fa0f048823f}\\python-3.13.5-amd64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Package Cache\\{2a612b01-6a34-408a-b31b-2fa0f048823f}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "3135",
+            "64bit",
+            "p36",
+            "python",
+            "python 3.13.5 (64-bit)",
+            "python313564bit"
+        ]
+    },
+    {
+        "name": "PythonSoftwareFoundation.PythonManager",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.PythonManager_26.3.240.0_x64__3847v3x7pw1km",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "pythonsoftwarefoundation.pythonmanager",
+            "pythonsoftwarefoundationpythonmanager"
+        ]
+    },
+    {
+        "name": "RecoveryDrive",
+        "target": "C:\\WINDOWS\\system32\\RecoveryDrive.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\RecoveryDrive.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "recoverydrive"
+        ]
+    },
+    {
+        "name": "Registry Editor",
+        "target": "C:\\WINDOWS\\regedit.exe",
+        "arguments": "",
+        "working_directory": "%windir%",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Registry Editor.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "editor",
+            "re",
+            "registry",
+            "registry editor",
+            "registryeditor"
+        ]
+    },
+    {
+        "name": "Remote Desktop Connection",
+        "target": "C:\\WINDOWS\\system32\\mstsc.exe",
+        "arguments": "",
+        "working_directory": "%windir%\\system32\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Remote Desktop Connection.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "connection",
+            "desktop",
+            "rdc",
+            "remote",
+            "remote desktop connection",
+            "remotedesktopconnection"
+        ]
+    },
+    {
+        "name": "Resource Monitor",
+        "target": "C:\\WINDOWS\\system32\\perfmon.exe",
+        "arguments": "/res",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Resource Monitor.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "monitor",
+            "resource",
+            "resource monitor",
+            "resourcemonitor",
+            "rm"
+        ]
+    },
+    {
+        "name": "Riot Client",
+        "target": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
+        "arguments": "",
+        "working_directory": "C:/Riot Games/Riot Client",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Riot Games\\Riot Client.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "client",
+            "rc",
+            "riot",
+            "riot client",
+            "riotclient"
+        ]
+    },
+    {
+        "name": "Riot Client ",
+        "target": "C:\\Riot Games\\Riot Client\\RiotClientCrashHandler.exe",
+        "arguments": "",
+        "working_directory": "C:\\Riot Games\\Riot Client",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "client",
+            "rc",
+            "riot",
+            "riot client",
+            "riotclient"
+        ]
+    },
+    {
+        "name": "Riot Vanguard",
+        "target": "C:\\Program Files\\Riot Vanguard\\log-uploader.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Riot Vanguard",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "riot",
+            "riot vanguard",
+            "riotvanguard",
+            "rv",
+            "vanguard"
+        ]
+    },
+    {
+        "name": "Roblox",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9\\RobloxPlayerBeta.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Roblox.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "roblox"
+        ]
+    },
+    {
+        "name": "Roblox Player for gamin",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9\\RobloxPlayerInstaller.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "for",
+            "gamin",
+            "player",
+            "roblox",
+            "roblox player for gamin",
+            "robloxplayerforgamin",
+            "rpfg"
+        ]
+    },
+    {
+        "name": "spacedesk DRIVER Console",
+        "target": "C:\\Program Files\\datronicsoft\\spacedesk\\spacedeskConsole.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\datronicsoft\\spacedesk\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\spacedesk DRIVER Console.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "console",
+            "driver",
+            "sdc",
+            "spacedesk",
+            "spacedesk driver console",
+            "spacedeskdriverconsole"
+        ]
+    },
+    {
+        "name": "Start Unlocker",
+        "target": "C:\\Program Files\\Unlocker\\Unlocker.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Unlocker",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Unlocker\\Start Unlocker.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "start",
+            "start unlocker",
+            "startunlocker",
+            "su",
+            "unlocker"
+        ]
+    },
+    {
+        "name": "Steam",
+        "target": "C:\\Program Files (x86)\\Steam\\Steam.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Steam",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "steam"
+        ]
+    },
+    {
+        "name": "Steam",
+        "target": "C:\\Program Files (x86)\\Steam\\uninstall.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Steam",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "steam"
+        ]
+    },
+    {
+        "name": "Steps Recorder",
+        "target": "C:\\WINDOWS\\system32\\psr.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Steps Recorder.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "recorder",
+            "sr",
+            "steps",
+            "steps recorder",
+            "stepsrecorder"
+        ]
+    },
+    {
+        "name": "System Configuration",
+        "target": "C:\\WINDOWS\\system32\\msconfig.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\System Configuration.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "configuration",
+            "sc",
+            "system",
+            "system configuration",
+            "systemconfiguration"
+        ]
+    },
+    {
+        "name": "System Information",
+        "target": "C:\\WINDOWS\\system32\\msinfo32.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\System Information.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "information",
+            "si",
+            "system",
+            "system information",
+            "systeminformation"
+        ]
+    },
+    {
+        "name": "Task Manager",
+        "target": "C:\\WINDOWS\\system32\\taskmgr.exe",
+        "arguments": "/7",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Task Manager.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "manager",
+            "task",
+            "task manager",
+            "taskmanager",
+            "tm"
+        ]
+    },
+    {
+        "name": "Thrustmaster Force Feedback Driver",
+        "target": "C:\\Program Files (x86)\\Thrustmaster\\Thrustmaster FFB Driver\\TMRegCln.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Thrustmaster\\Thrustmaster FFB Driver",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "driver",
+            "feedback",
+            "force",
+            "tffd",
+            "thrustmaster",
+            "thrustmaster force feedback driver",
+            "thrustmasterforcefeedbackdriver"
+        ]
+    },
+    {
+        "name": "Uninstall",
+        "target": "C:\\Program Files\\Unlocker\\uninst.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Unlocker",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Unlocker\\Uninstall.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "uninstall"
+        ]
+    },
+    {
+        "name": "Uninstall",
+        "target": "C:\\WINDOWS\\system32\\RunDll32.exe",
+        "arguments": "C:\\PROGRA~2\\COMMON~1\\INSTAL~1\\engine\\6\\INTEL3~1\\Ctor.dll,LaunchSetup \"C:\\Program Files (x86)\\InstallShield Installation Information\\{2F9C99E1-A1D2-4ADB-AFA0-3A1ED9471811}\\Setup.exe\"",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Gaming Mouse\\Uninstall.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "uninstall"
+        ]
+    },
+    {
+        "name": "Uninstall",
+        "target": "C:\\Program Files (x86)\\InstallShield Installation Information\\{8F5A0981-5CDC-41D0-BCA2-AD3B777FC358}\\setup.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\InstallShield Installation Information\\{8F5A0981-5CDC-41D0-BCA2-AD3B777FC358}\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Thrustmaster\\Force Feedback driver\\Uninstall.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "uninstall"
+        ]
+    },
+    {
+        "name": "Uninstall Node.js",
+        "target": "C:\\Windows\\SysWOW64\\msiexec.exe",
+        "arguments": "/x {89850E15-F7D6-476D-972E-F8F5215E4498}",
+        "working_directory": "C:\\Windows\\SysWOW64",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Node.js\\Uninstall Node.js.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "nodejs",
+            "un",
+            "uninstall",
+            "uninstall node.js",
+            "uninstallnodejs"
+        ]
+    },
+    {
+        "name": "Update Service",
+        "target": "C:\\Program Files\\Guillemot\\tools\\tmStartWUW.exe",
+        "arguments": "\"ftp.thrustmaster.com\" \"/pub/webupdate/T500RS\"",
+        "working_directory": "C:\\Program Files\\Guillemot\\tools\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Thrustmaster FFB Racing wheel\\Update Service.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "service",
+            "update",
+            "update service",
+            "updateservice",
+            "us"
+        ]
+    },
+    {
+        "name": "uTorrent Web",
+        "target": "C:\\Users\\gamin\\AppData\\Roaming\\uTorrent Web\\utweb.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Roaming\\uTorrent Web",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\uTorrent Web.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "utorrent",
+            "utorrent web",
+            "utorrentweb",
+            "uw",
+            "web"
+        ]
+    },
+    {
+        "name": "VALORANT",
+        "target": "C:\\games\\Riot Games\\VALORANT\\live\\VALORANT.exe",
+        "arguments": "",
+        "working_directory": "C:\\games\\Riot Games\\VALORANT\\live",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "valorant"
+        ]
+    },
+    {
+        "name": "Visual Studio 2022",
+        "target": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2022.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "2022",
+            "studio",
+            "visual",
+            "visual studio 2022",
+            "visualstudio2022",
+            "vs2"
+        ]
+    },
+    {
+        "name": "Visual Studio Code",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\Microsoft VS Code",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "code",
+            "studio",
+            "visual",
+            "visual studio code",
+            "visualstudiocode",
+            "vs code",
+            "vsc",
+            "vscode"
+        ]
+    },
+    {
+        "name": "Visual Studio Installer",
+        "target": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Installer.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "installer",
+            "studio",
+            "visual",
+            "visual studio installer",
+            "visualstudioinstaller",
+            "vsi"
+        ]
+    },
+    {
+        "name": "VLC media player - reset preferences and cache files",
+        "target": "C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe",
+        "arguments": "--reset-config --reset-plugins-cache vlc://quit",
+        "working_directory": "C:\\Program Files (x86)\\VideoLAN\\VLC",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\VLC media player - reset preferences and cache files.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "and",
+            "cache",
+            "files",
+            "media",
+            "player",
+            "preferences",
+            "reset",
+            "vlc",
+            "vlc media player - reset preferences and cache files",
+            "vlcmediaplayerresetpreferencesandcachefiles",
+            "vmprpacf"
+        ]
+    },
+    {
+        "name": "VoiceAccess",
+        "target": "C:\\WINDOWS\\system32\\voiceaccess.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\system32",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\VoiceAccess.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "voiceaccess"
+        ]
+    },
+    {
+        "name": "WebStorm 2026.2",
+        "target": "C:\\Program Files\\JetBrains\\WebStorm 2026.2\\bin\\webstorm64.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\JetBrains\\WebStorm 2026.2",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\WebStorm 2026.2.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "20262",
+            "w2",
+            "webstorm",
+            "webstorm 2026.2",
+            "webstorm20262"
+        ]
+    },
+    {
+        "name": "Windows App Cert Kit",
+        "target": "C:\\Program Files (x86)\\Windows Kits\\10\\App Certification Kit\\appcertui.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Windows Kits\\10\\App Certification Kit\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Windows App Certification Kit\\Windows App Cert Kit.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "app",
+            "cert",
+            "kit",
+            "wack",
+            "windows",
+            "windows app cert kit",
+            "windowsappcertkit"
+        ]
+    },
+    {
+        "name": "Windows Media Player Legacy",
+        "target": "C:\\Program Files (x86)\\Windows Media Player\\wmplayer.exe",
+        "arguments": "/prefetch:1",
+        "working_directory": "%ProgramFiles(x86)%\\Windows Media Player",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Windows Media Player Legacy.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "legacy",
+            "media",
+            "player",
+            "windows",
+            "windows media player legacy",
+            "windowsmediaplayerlegacy",
+            "wmpl"
+        ]
+    },
+    {
+        "name": "Windows Performance Analyzer",
+        "target": "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\wpa.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Windows Performance Toolkit\\Windows Performance Analyzer.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "analyzer",
+            "performance",
+            "windows",
+            "windows performance analyzer",
+            "windowsperformanceanalyzer",
+            "wpa"
+        ]
+    },
+    {
+        "name": "Windows Performance Recorder",
+        "target": "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\WPRUI.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Windows Performance Toolkit\\Windows Performance Recorder.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "performance",
+            "recorder",
+            "windows",
+            "windows performance recorder",
+            "windowsperformancerecorder",
+            "wpr"
+        ]
+    },
+    {
+        "name": "Windows PowerShell",
+        "target": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "arguments": "",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "powershell",
+            "windows",
+            "windows powershell",
+            "windowspowershell",
+            "wp"
+        ]
+    },
+    {
+        "name": "Windows PowerShell (x86)",
+        "target": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "arguments": "",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell (x86).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "powershell",
+            "windows",
+            "windows powershell (x86)",
+            "windowspowershellx86",
+            "wpx",
+            "x86"
+        ]
+    },
+    {
+        "name": "Windows PowerShell ISE",
+        "target": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe",
+        "arguments": "",
+        "working_directory": "%HOMEDRIVE%%HOMEPATH%",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell ISE.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "ise",
+            "powershell",
+            "windows",
+            "windows powershell ise",
+            "windowspowershellise",
+            "wpi"
+        ]
+    },
+    {
+        "name": "Windows PowerShell ISE (x86)",
+        "target": "C:\\WINDOWS\\syswow64\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe",
+        "arguments": "",
+        "working_directory": "C:\\WINDOWS\\syswow64\\WindowsPowerShell\\v1.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell ISE (x86).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "ise",
+            "powershell",
+            "windows",
+            "windows powershell ise (x86)",
+            "windowspowershellisex86",
+            "wpix",
+            "x86"
+        ]
+    },
+    {
+        "name": "Windows Software Development Kit",
+        "target": "C:\\WINDOWS\\explorer.exe",
+        "arguments": "\"C:\\Program Files (x86)\\Windows Kits\\10\\\"",
+        "working_directory": "C:\\Program Files (x86)\\Windows Kits\\10\\",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Kits\\Windows Software Development Kit\\Windows Software Development Kit.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "development",
+            "kit",
+            "software",
+            "windows",
+            "windows software development kit",
+            "windowssoftwaredevelopmentkit",
+            "wsdk"
+        ]
+    },
+    {
+        "name": "Windows.CBSPreview",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Windows.CBSPreview_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "windows.cbspreview",
+            "windowscbspreview"
+        ]
+    },
+    {
+        "name": "windows.immersivecontrolpanel",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\ImmersiveControlPanel",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "windows.immersivecontrolpanel",
+            "windowsimmersivecontrolpanel"
+        ]
+    },
+    {
+        "name": "Windows.PrintDialog",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Windows\\SystemApps\\Windows.PrintDialog_cw5n1h2txyewy",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "windows.printdialog",
+            "windowsprintdialog"
+        ]
+    },
+    {
+        "name": "WinRAR",
+        "target": "C:\\Program Files\\WinRAR\\WinRAR.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\OneDrive\\Desktop",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\WinRAR\\WinRAR.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "winrar"
+        ]
+    },
+    {
+        "name": "WinRAR.ShellExtension",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\WinRAR.ShellExtension_1.0.0.2_x64__d9ma7nkbkv4rp",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "winrar.shellextension",
+            "winrarshellextension"
+        ]
+    }
+]

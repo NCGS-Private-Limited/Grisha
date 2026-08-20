@@ -2,11 +2,13 @@ from core.parser import command_split
 from core.dispatcher import dispatch
 from core.logger import logger
 from core.config import config
+from apps_operations.app_discovery import discover_and_save_apps
 
 
 class Assistant:
     def start(self):
         configuration = config()
+        discover_and_save_apps()
         print(f"====== {configuration['assistant_name']} Here ======")
         print('Type "exit" to Stop')
 

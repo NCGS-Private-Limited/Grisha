@@ -11,6 +11,10 @@ from file_operations.copy_file import copy_file
 from folder_operations.copy_folder import copy_folder
 from file_operations.move_file import move_file
 from folder_operations.move_folder import move_folder
+from apps_operations.app_database import ApplicationDatabase
+from apps_operations.app_matcher import find_best_match
+from apps_operations.app_launcher import open_app
+
 
 
 commands = {
@@ -119,31 +123,55 @@ def dispatch(command, args):
                     return result, "Success"
                 else:
                     return "Invalid Copy command", "failed"
-        elif command == "move":
-            if not args:
-                return "Move what?", "failed"
-            if args[0] == "file":
-                if len(args) == 1:
-                    return "Enter the file name to move", "failed"
-                elif len(args) == 2:
-                    return "Enter the destination path to move the file", "failed"
-                elif len(args) == 3:
-                    result = move_file(args[1], args[2])
-                    return result, "Success"
-                else:
-                    return "Invalid Move command", "failed"
-            elif args[0] == "folder":
-                if len(args) == 1:
-                    return "Enter the folder name to move", "failed"
-                elif len(args) == 2:
-                    return "Enter the destination path to move the folder", "failed"
-                elif len(args) == 3:
-                    result = move_folder(args[1], args[2])
-                    return result, "Success"
-                else:
-                    return "Invalid Move command", "failed"
+    elif command == "move":
+        if not args:
+            return "Move what?", "failed"
+        if args[0] == "file":
+            if len(args) == 1:
+                return "Enter the file name to move", "failed"
+            elif len(args) == 2:
+                return "Enter the destination path to move the file", "failed"
+            elif len(args) == 3:
+                result = move_file(args[1], args[2])
+                return result, "Success"
+            else:
+                return "Invalid Move command", "failed"
+        elif args[0] == "folder":
+            if len(args) == 1:
+                return "Enter the folder name to move", "failed"
+            elif len(args) == 2:
+                return "Enter the destination path to move the folder", "failed"
+            elif len(args) == 3:
+                result = move_folder(args[1], args[2])
+                return result, "Success"
+            else:
+                return "Invalid Move command", "failed"
         else:
             return "Move what?", "failed"
+    elif command == "open":
+        if not args:
+            return "Enter an application name", "failed"
 
+        application_name = " ".join(args).strip()
+
+        database = ApplicationDatabase()
+
+        app = find_best_match(
+            database,
+            application_name
+        )
+
+        if not app:
+            return (
+                f"Application not found: {application_name}",
+                "failed"
+            )
+
+        success, result = open_app(app)
+
+        if success:
+            return result, "Success"
+
+        return result, "failed"
     else:
         return "Unknown command", "failed"
