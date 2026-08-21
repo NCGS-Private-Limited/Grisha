@@ -18,6 +18,7 @@ from apps_operations.app_closer import close_application
 from apps_operations.window_detector import get_application_windows
 from apps_operations.window_matcher import find_best_window
 from apps_operations.window_activator import focus_window
+from system_operations.system_control import lock_system, hibernate_system
 
 
 
@@ -302,6 +303,46 @@ def dispatch(command, args):
 
         return (
             f"Failed to focus {app['name']}.",
+            "failed"
+        )
+    elif command == "lock":
+
+        if args:
+            return (
+                "Invalid lock command",
+                "failed"
+            )
+
+        result = lock_system()
+
+        if result:
+            return (
+                "System locked.",
+                "Success"
+            )
+
+        return (
+            "Failed to lock system.",
+            "failed"
+        )
+    elif command == "sleep":
+
+        if args:
+            return (
+                "Invalid sleep command",
+                "failed"
+            )
+
+        result = hibernate_system()
+
+        if result:
+            return (
+                "System going to sleep.",
+                "Success"
+            )
+
+        return (
+            "Failed to sleep system.",
             "failed"
         )
     else:
