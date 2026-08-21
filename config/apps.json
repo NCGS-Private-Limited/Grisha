@@ -1050,7 +1050,7 @@
         "name": "Microsoft.GetHelp",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.42092.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.42162.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1938,7 +1938,7 @@
         "name": "Microsoft.WindowsStore",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22606.1401.13.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.3.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2250,7 +2250,7 @@
         "name": "MicrosoftWindows.CrossDevice",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26062.105.0_x64__cw5n1h2txyewy",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26071.84.0_x64__cw5n1h2txyewy",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2521,7 +2521,7 @@
         "name": "OpenAI.Codex",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.810.7004.0_x64__2p2nqsd0c76g0",
+        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.818.2441.0_x64__2p2nqsd0c76g0",
         "shortcut": "",
         "source": "store",
         "aliases": [

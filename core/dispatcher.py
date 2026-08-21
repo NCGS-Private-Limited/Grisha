@@ -14,6 +14,10 @@ from folder_operations.move_folder import move_folder
 from apps_operations.app_database import ApplicationDatabase
 from apps_operations.app_matcher import find_best_match
 from apps_operations.app_launcher import open_app
+from apps_operations.app_closer import close_application
+from apps_operations.window_detector import get_application_windows
+from apps_operations.window_matcher import find_best_window
+from apps_operations.window_activator import focus_window
 
 
 
@@ -173,5 +177,132 @@ def dispatch(command, args):
             return result, "Success"
 
         return result, "failed"
+    elif command == "close":
+
+        # Validate application name
+        if not args:
+            return "Enter an application name", "failed"
+
+        application_name = " ".join(args).strip()
+
+        if not application_name:
+            return "Enter an application name", "failed"
+
+        # Load application database
+        database = ApplicationDatabase()
+
+        # Find the best application match
+        app = find_best_match(
+            database,
+            application_name
+        )
+
+        # Application not found
+        if not app:
+            return (
+                f"Application not found: {application_name}",
+                "failed"
+            )
+
+        # Close application
+        result = close_application(app)
+
+        # Application closed successfully
+        if result:
+            return (
+                f"{app['name']} closed.",
+                "Success"
+            )
+
+        # Application is not running
+        return (
+            f"{app['name']} is not running.",
+            "failed"
+        )
+    elif command == "focus":
+
+        # --------------------------------------------------------
+        # Validate application name
+        # --------------------------------------------------------
+
+        if not args:
+            return (
+                "Enter an application name",
+                "failed"
+            )
+
+        application_name = " ".join(args).strip()
+
+        if not application_name:
+            return (
+                "Enter an application name",
+                "failed"
+            )
+
+        # --------------------------------------------------------
+        # Load application database
+        # --------------------------------------------------------
+
+        database = ApplicationDatabase()
+
+        # --------------------------------------------------------
+        # Find application
+        # --------------------------------------------------------
+
+        app = find_best_match(
+            database,
+            application_name
+        )
+
+        if not app:
+            return (
+                f"Application not found: {application_name}",
+                "failed"
+            )
+
+        # --------------------------------------------------------
+        # Find application windows
+        # --------------------------------------------------------
+
+        windows = get_application_windows(app)
+
+        if not windows:
+            return (
+                f"{app['name']} has no visible windows.",
+                "failed"
+            )
+
+        # --------------------------------------------------------
+        # Select best window
+        # --------------------------------------------------------
+
+        window = find_best_window(
+            windows
+        )
+
+        if not window:
+            return (
+                f"Could not find a window for {app['name']}.",
+                "failed"
+            )
+
+        # --------------------------------------------------------
+        # Focus window
+        # --------------------------------------------------------
+
+        result = focus_window(
+            window["hwnd"]
+        )
+
+        if result:
+            return (
+                f"{app['name']} focused.",
+                "Success"
+            )
+
+        return (
+            f"Failed to focus {app['name']}.",
+            "failed"
+        )
     else:
         return "Unknown command", "failed"
