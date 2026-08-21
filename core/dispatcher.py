@@ -19,7 +19,7 @@ from apps_operations.window_detector import get_application_windows
 from apps_operations.window_matcher import find_best_window
 from apps_operations.window_activator import focus_window
 from system_operations.system_control import lock_system, hibernate_system
-
+from screen_operations.screen_observer import observe_screen
 
 
 commands = {
@@ -345,5 +345,19 @@ def dispatch(command, args):
             "Failed to sleep system.",
             "failed"
         )
+    elif command == "observe":
+
+        if args:
+            return (
+                "Observe does not accept arguments.",
+                "failed"
+            )
+
+        result, success = observe_screen()
+
+        if success:
+            return result, "Success"
+
+        return result, "failed"
     else:
         return "Unknown command", "failed"

@@ -14,9 +14,9 @@ def get_running_processes():
             info = process.info
 
             processes.append({
-                "pid": info["pid"],
-                "name": info["name"],
-                "exe": info["exe"]
+                "pid": info.get("pid"),
+                "name": info.get("name") or "",
+                "exe": info.get("exe") or ""
             })
 
         except (

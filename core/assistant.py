@@ -4,7 +4,6 @@ from core.logger import logger
 from core.config import config
 from apps_operations.app_discovery import discover_and_save_apps
 
-
 class Assistant:
     def start(self):
         configuration = config()

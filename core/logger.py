@@ -15,7 +15,7 @@ def logger(user_input, dispatch_output, status_output):
 
     file = Path("logs/logs.txt")
 
-    with file.open("a") as f:
+    with file.open("a", encoding="utf-8") as f:
         f.write(f"[{date}] "
                 f"command : {message}, "
                 f"action : {output}, "
