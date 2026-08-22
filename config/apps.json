@@ -27,7 +27,7 @@
         "name": "5319275A.WhatsAppDesktop",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2631.102.0_x64__cv1g1gvanyjgm",
+        "working_directory": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2632.100.0_x64__cv1g1gvanyjgm",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -70,7 +70,7 @@
         "name": "AD2F1837.OMENCommandCenter",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\AD2F1837.OMENCommandCenter_1101.2607.3.0_x64__v10z8vjag6ke6",
+        "working_directory": "C:\\Program Files\\WindowsApps\\AD2F1837.OMENCommandCenter_1101.2608.1.0_x64__v10z8vjag6ke6",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -771,9 +771,9 @@
     },
     {
         "name": "Microsoft Edge",
-        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.93\\msedge.exe",
+        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.101\\msedge.exe",
         "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.93",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.101",
         "shortcut": "",
         "source": "registry",
         "aliases": [
@@ -786,9 +786,9 @@
     },
     {
         "name": "Microsoft Edge WebView2 Runtime",
-        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.93\\msedgewebview2.exe",
+        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.101\\msedgewebview2.exe",
         "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.93",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.101",
         "shortcut": "",
         "source": "registry",
         "aliases": [
@@ -1133,7 +1133,7 @@
         "name": "Microsoft.MicrosoftEdge.Stable",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_151.0.4129.93_neutral__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_151.0.4129.101_neutral__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1157,7 +1157,7 @@
         "name": "Microsoft.MicrosoftOfficeHub",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.46011.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.49021.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1253,7 +1253,7 @@
         "name": "Microsoft.Paint",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2605.71.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2605.81.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1913,7 +1913,7 @@
         "name": "Microsoft.WindowsFeedbackHub",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_2.2606.703.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_2.2607.302.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1949,7 +1949,7 @@
         "name": "Microsoft.WindowsStore",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.3.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.5.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1997,7 +1997,7 @@
         "name": "Microsoft.XboxGamingOverlay",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.326.7271.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.326.8061.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2532,7 +2532,7 @@
         "name": "OpenAI.Codex",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.818.2441.0_x64__2p2nqsd0c76g0",
+        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.818.5229.0_x64__2p2nqsd0c76g0",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2871,10 +2871,25 @@
         ]
     },
     {
-        "name": "Roblox Player for gamin",
-        "target": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9\\RobloxPlayerInstaller.exe",
+        "name": "Roblox Player",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-ce0bcd0fbd484804\\RobloxPlayerBeta.exe",
         "arguments": "",
-        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-ce0bcd0fbd484804",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Roblox\\Roblox Player.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "player",
+            "roblox",
+            "roblox player",
+            "robloxplayer",
+            "rp"
+        ]
+    },
+    {
+        "name": "Roblox Player for gamin",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-ce0bcd0fbd484804\\RobloxPlayerInstaller.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-ce0bcd0fbd484804",
         "shortcut": "",
         "source": "registry",
         "aliases": [

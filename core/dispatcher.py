@@ -20,6 +20,7 @@ from apps_operations.window_matcher import find_best_window
 from apps_operations.window_activator import focus_window
 from system_operations.system_control import lock_system, hibernate_system
 from screen_operations.screen_observer import observe_screen
+from actions.elements import click_element
 
 
 commands = {
@@ -359,5 +360,18 @@ def dispatch(command, args):
             return result, "Success"
 
         return result, "failed"
+    elif command == "click":
+
+        if not args:
+            return "Please specify what to click.", "error"
+
+        target = " ".join(args)
+
+        try:
+            click_element(target)
+            return f'Clicked "{target}".', "success"
+
+        except ValueError as e:
+            return str(e), "error"
     else:
         return "Unknown command", "failed"
