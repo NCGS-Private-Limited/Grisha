@@ -46,10 +46,6 @@ def preprocess_images(image):
 
 
 def extract_text(image):
-    """
-    Extract text from the screenshot using
-    multiple OCR preprocessing methods.
-    """
 
     images = preprocess_images(image)
 
@@ -80,8 +76,6 @@ def extract_text(image):
             if confidence < 15:
                 continue
 
-            # Convert coordinates back to original
-            # screenshot coordinates.
             x = data["left"][i] // scale
             y = data["top"][i] // scale
             width = data["width"][i] // scale
@@ -97,7 +91,7 @@ def extract_text(image):
                 "source": index
             })
 
-    return elements
+    return deduplicate_elements(elements)
 
 
 def observe_screen():
@@ -134,6 +128,26 @@ def find_element(target):
 
     return None
 
+def find_elements(target):
+    """
+    Find all matching elements on the screen using OCR.
+    """
+
+    screen = observe_screen()
+
+    target = target.strip().lower()
+
+    matches = []
+
+    for element in screen["elements"]:
+
+        detected_text = element["text"].strip().lower()
+
+        if detected_text == target:
+            matches.append(element)
+
+    return matches
+
 
 def get_element_center(element):
     """
@@ -150,3 +164,72 @@ def get_element_center(element):
     center_y = y + height // 2
 
     return center_x, center_y
+
+def deduplicate_elements(elements):
+    """
+    Remove duplicate OCR detections of the same
+    physical screen element.
+
+    Keeps the detection with the highest confidence.
+    """
+
+    unique = []
+
+    for element in elements:
+
+        duplicate = None
+
+        for existing in unique:
+
+            same_text = (
+                element["text"].strip().lower()
+                == existing["text"].strip().lower()
+            )
+
+            if not same_text:
+                continue
+
+            # Calculate center points
+            element_cx = (
+                element["x"] +
+                element["width"] // 2
+            )
+
+            element_cy = (
+                element["y"] +
+                element["height"] // 2
+            )
+
+            existing_cx = (
+                existing["x"] +
+                existing["width"] // 2
+            )
+
+            existing_cy = (
+                existing["y"] +
+                existing["height"] // 2
+            )
+
+            # Small positional difference means
+            # both detections represent the same element.
+            if (
+                abs(element_cx - existing_cx) <= 10
+                and
+                abs(element_cy - existing_cy) <= 10
+            ):
+                duplicate = existing
+                break
+
+        if duplicate is None:
+
+            unique.append(element)
+
+        else:
+
+            # Keep the higher-confidence detection.
+            if element["confidence"] > duplicate["confidence"]:
+
+                unique.remove(duplicate)
+                unique.append(element)
+
+    return unique

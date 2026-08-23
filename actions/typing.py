@@ -1,28 +1,36 @@
+from actions.screen import find_elements
+from actions.selection import resolve_element
 from actions.mouse import click
 from actions.keyboard import type_text
-from actions.screen import find_element, get_element_center
 
 
 def type_into_element(target, text):
-    """
-    Find a screen element, click it, and type text.
-    """
 
-    element = find_element(target)
+    element = resolve_element(
+        target,
+        find_elements
+    )
 
-    if element is None:
-        raise ValueError(
-            f'Element "{target}" was not found.'
-        )
+    center_x = (
+        element["x"] +
+        element["width"] // 2
+    )
 
-    x, y = get_element_center(element)
+    center_y = (
+        element["y"] +
+        element["height"] // 2
+    )
 
-    print(f'Found: {element["text"]}')
-    print(f"Clicking field: ({x}, {y})")
+    print(
+        f'Clicking "{element["text"]}" '
+        f'at ({center_x}, {center_y})'
+    )
 
-    click(x, y)
+    click(center_x, center_y)
 
-    print(f"Typing: {text}")
+    print(
+        f'Typing: "{text}"'
+    )
 
     type_text(text)
 

@@ -21,6 +21,8 @@ from apps_operations.window_activator import focus_window
 from system_operations.system_control import lock_system, hibernate_system
 from screen_operations.screen_observer import observe_screen
 from actions.elements import click_element
+from actions.typing import type_into_element
+from actions.selection import SelectionCancelled
 
 
 commands = {
@@ -361,7 +363,6 @@ def dispatch(command, args):
 
         return result, "failed"
     elif command == "click":
-
         if not args:
             return "Please specify what to click.", "error"
 
@@ -369,8 +370,35 @@ def dispatch(command, args):
 
         try:
             click_element(target)
-            return f'Clicked "{target}".', "success"
+            return (
+                f'Clicked "{target}".',
+                "success"
+            )
 
+        except SelectionCancelled:
+            return "Cancelled.", "cancelled"
+
+        except ValueError as e:
+            return str(e), "error"
+    elif command == "type":
+
+        if len(args) < 2:
+            return "Please specify an element and text.", "error"
+
+        target = args[0]
+        text = " ".join(args[1:])
+
+        try:
+            type_into_element(
+                target,
+                text
+            )
+            return (
+                f'Typed "{text}" into "{target}".',
+                "success"
+            )
+        except SelectionCancelled:
+            return "Cancelled.", "cancelled"
         except ValueError as e:
             return str(e), "error"
     else:
