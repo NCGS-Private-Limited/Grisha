@@ -1,5 +1,6 @@
 # Grisha
 
+
 **Grisha** is a Python-based desktop AI assistant being developed as a long-term project for natural-language computer interaction.
 
 The goal is to build an assistant that can understand what is happening on a computer screen and perform useful actions through applications, files, folders, system controls, mouse, and keyboard.
