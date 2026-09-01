@@ -6,8 +6,8 @@ from avatar.overlay import AvatarOverlay
 
 def main():
 
-    grisha = Assistant()
     avatar = AvatarOverlay()
+    grisha = Assistant(avatar)
 
     def run_grisha():
 
@@ -18,7 +18,6 @@ def main():
             print(f"[F1 ERROR] {e}")
 
         finally:
-            # F1 stopped → close F2
             avatar.root.after(
                 0,
                 avatar.close
@@ -31,7 +30,6 @@ def main():
 
     grisha_thread.start()
 
-    # Tkinter must stay on the main thread
     avatar.run()
 
 
