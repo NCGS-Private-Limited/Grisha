@@ -153,17 +153,6 @@
         ]
     },
     {
-        "name": "Bitburner",
-        "target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Bitburner\\bitburner.exe",
-        "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Bitburner",
-        "shortcut": "",
-        "source": "registry",
-        "aliases": [
-            "bitburner"
-        ]
-    },
-    {
         "name": "Blackmagic Proxy Generator Lite",
         "target": "C:\\editor\\editor_main\\Resolve.exe",
         "arguments": "-pg",
@@ -336,9 +325,20 @@
     },
     {
         "name": "Discord",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9255\\Discord.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9255",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "discord"
+        ]
+    },
+    {
+        "name": "Discord",
         "target": "C:\\Users\\gamin\\AppData\\Local\\Discord\\Update.exe",
         "arguments": "--processStart Discord.exe",
-        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9211",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9255",
         "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
         "source": "start_menu",
         "aliases": [
@@ -402,6 +402,26 @@
             "eer",
             "error",
             "reporter"
+        ]
+    },
+    {
+        "name": "Eclipse Temurin JDK with Hotspot 17.0.20.1+1 (x64)",
+        "target": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.20.101-hotspot\\bin\\jabswitch.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.20.101-hotspot\\bin",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "1702011",
+            "eclipse",
+            "eclipse temurin jdk with hotspot 17.0.20.1+1 (x64)",
+            "eclipsetemurinjdkwithhotspot1702011x64",
+            "etjwh1x",
+            "hotspot",
+            "jdk",
+            "temurin",
+            "with",
+            "x64"
         ]
     },
     {
@@ -771,9 +791,9 @@
     },
     {
         "name": "Microsoft Edge",
-        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.101\\msedge.exe",
+        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\152.0.4191.53\\msedge.exe",
         "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\151.0.4129.101",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\152.0.4191.53",
         "shortcut": "",
         "source": "registry",
         "aliases": [
@@ -786,9 +806,9 @@
     },
     {
         "name": "Microsoft Edge WebView2 Runtime",
-        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.101\\msedgewebview2.exe",
+        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
         "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.101",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107",
         "shortcut": "",
         "source": "registry",
         "aliases": [
@@ -1133,7 +1153,7 @@
         "name": "Microsoft.MicrosoftEdge.Stable",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_151.0.4129.101_neutral__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_152.0.4191.53_neutral__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1157,7 +1177,7 @@
         "name": "Microsoft.MicrosoftOfficeHub",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.49021.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.54041.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1193,7 +1213,7 @@
         "name": "Microsoft.MPEG2VideoExtension",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MPEG2VideoExtension_1.2.13.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MPEG2VideoExtension_1.2.32.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1349,7 +1369,7 @@
         "name": "Microsoft.ScreenSketch",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2605.36.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2605.37.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1397,7 +1417,7 @@
         "name": "Microsoft.StorePurchaseApp",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22606.1401.3.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22607.1401.2.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1481,7 +1501,7 @@
         "name": "Microsoft.VisualStudioCode",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.VisualStudioCode_1.0.130.0_neutral__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.VisualStudioCode_1.0.135.0_neutral__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1949,7 +1969,7 @@
         "name": "Microsoft.WindowsStore",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.5.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.7.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2081,7 +2101,7 @@
         "name": "MicrosoftCorporationII.WinAppRuntime.Main.1.8",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8000.921.1539.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8000.946.1701.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2093,7 +2113,7 @@
         "name": "MicrosoftCorporationII.WinAppRuntime.Main.2",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.2_2.3.1.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.2_2.4.0.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2337,23 +2357,6 @@
         ]
     },
     {
-        "name": "Need for Speed™ Rivals",
-        "target": "C:\\games\\Rivals\\Need for Speed(TM) Rivals\\NFS14.exe",
-        "arguments": "",
-        "working_directory": "C:\\games\\Rivals\\Need for Speed(TM) Rivals",
-        "shortcut": "",
-        "source": "registry",
-        "aliases": [
-            "for",
-            "need",
-            "need for speed™ rivals",
-            "needforspeedrivals",
-            "nfsr",
-            "rivals",
-            "speed"
-        ]
-    },
-    {
         "name": "Node.js",
         "target": "C:\\Program Files\\nodejs\\node.exe",
         "arguments": "",
@@ -2532,7 +2535,7 @@
         "name": "OpenAI.Codex",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.818.5229.0_x64__2p2nqsd0c76g0",
+        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -3030,6 +3033,17 @@
             "thrustmaster",
             "thrustmaster force feedback driver",
             "thrustmasterforcefeedbackdriver"
+        ]
+    },
+    {
+        "name": "TLauncher",
+        "target": "C:\\Users\\gamin\\AppData\\Roaming\\.minecraft\\TLauncher.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Roaming\\.minecraft",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\TLauncher\\TLauncher.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "tlauncher"
         ]
     },
     {

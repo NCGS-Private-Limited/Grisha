@@ -8,8 +8,7 @@ class Assistant:
     def start(self):
         configuration = config()
         discover_and_save_apps()
-        print(f"====== {configuration['assistant_name']} Here ======")
-        print('Type "exit" to Stop')
+        print("Grisha Here")
 
         while True:
             user_input = input("> ")
