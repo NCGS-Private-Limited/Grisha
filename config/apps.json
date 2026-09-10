@@ -1276,7 +1276,7 @@
         "name": "Microsoft.Ink.Handwriting.en-US.1.0",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Ink.Handwriting.en-US.1.0_0.1248.2215.0_x86__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Ink.Handwriting.en-US.1.0_0.1248.2215.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
