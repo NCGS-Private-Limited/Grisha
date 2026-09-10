@@ -7,10 +7,11 @@ from apps_operations.app_discovery import discover_and_save_apps
 
 class Assistant:
 
-    def __init__(self, avatar=None, voice=None):
+    def __init__(self, avatar=None, voice=None, stt=None):
 
         self.avatar = avatar
         self.voice = voice
+        self.stt = stt
 
     # =====================================================
     # DIALOG
@@ -76,13 +77,26 @@ class Assistant:
 
         while True:
 
-            user_input = input("> ")
+            if self.stt:
+
+                user_input = self.stt.listen()
+
+            else:
+
+                user_input = input("> ")
 
             user_input = (
                 user_input
                 .strip()
                 .lower()
             )
+
+            # =============================================
+            # EMPTY INPUT
+            # =============================================
+
+            if not user_input:
+                continue
 
             command, args = command_split(
                 user_input

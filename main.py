@@ -3,6 +3,7 @@ import threading
 from core.assistant import Assistant
 from avatar.overlay import AvatarOverlay
 from voice import VoiceEngine
+from speech.stt import STTEngine
 
 
 def main():
@@ -18,13 +19,18 @@ def main():
         avatar=avatar
     )
 
+    stt = STTEngine(
+        language="en"
+    )
+
     # =================================================
     # ASSISTANT
     # =================================================
 
     grisha = Assistant(
         avatar,
-        voice=voice
+        voice=voice,
+        stt=stt
     )
 
     # =================================================
@@ -43,13 +49,19 @@ def main():
                 f"[F1 ERROR] {e}"
             )
 
+
         finally:
 
             voice.close()
 
+            stt.close()
+
             avatar.root.after(
+
                 0,
+
                 avatar.close
+
             )
 
     grisha_thread = threading.Thread(

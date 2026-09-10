@@ -59,3 +59,31 @@
 [10/09/2026 09:52:51] command : exit, action : GoodBye!, status : Success
 [10/09/2026 09:54:19] command : hello gs, action : Hello NC, status : Success
 [10/09/2026 09:54:24] command : exit, action : GoodBye!, status : Success
+[10/09/2026 17:03:40] command : i love you, yes., action : Unknown command, status : failed
+[10/09/2026 17:03:49] command : hello, g.s., action : Unknown command, status : failed
+[10/09/2026 17:03:58] command : hello, g.s., action : Unknown command, status : failed
+[10/09/2026 17:04:08] command : open it., action : Application not found: it., status : failed
+[10/09/2026 17:04:18] command : open it., action : Application not found: it., status : failed
+[10/09/2026 17:04:28] command : open enter, action : Application target is missing., status : failed
+[10/09/2026 17:04:39] command : open engine, action : Application not found: engine, status : failed
+[10/09/2026 17:04:48] command : open microsoft, action : Opened Microsoft Edge., status : Success
+[10/09/2026 17:04:58] command : open edge, action : Opened Microsoft Edge., status : Success
+[10/09/2026 17:05:07] command : open edge, action : Opened Microsoft Edge., status : Success
+[10/09/2026 17:05:20] command : focus and, action : VLC media player - reset preferences and cache files focused., status : Success
+[10/09/2026 17:05:31] command : focus engine., action : Application not found: engine., status : failed
+[10/09/2026 17:05:40] command : focus, microsoft., action : Unknown command, status : failed
+[10/09/2026 17:05:52] command : focus microsoft., action : Microsoft.ECApp has no visible windows., status : failed
+[10/09/2026 17:06:01] command : focus, microsoft edge., action : Unknown command, status : failed
+[10/09/2026 17:08:30] command : open edge, action : Opened Microsoft Edge., status : Success
+[10/09/2026 17:08:40] command : focus edge, action : Microsoft Edge focused., status : Success
+[10/09/2026 17:08:51] command : close engine, action : Application not found: engine, status : failed
+[10/09/2026 17:09:00] command : closed edge, action : Unknown command, status : failed
+[10/09/2026 17:09:12] command : close and, action : VLC media player - reset preferences and cache files closed., status : Success
+[10/09/2026 17:09:23] command : closed led, action : Unknown command, status : failed
+[10/09/2026 17:09:36] command : close microsoft edge, action : Microsoft Edge closed., status : Success
+[10/09/2026 17:09:45] command : open charge deputy, action : Opened Chatgpt., status : Success
+[10/09/2026 17:09:54] command : you, action : Unknown command, status : failed
+[10/09/2026 17:10:03] command : good bye, action : Unknown command, status : failed
+[10/09/2026 17:10:08] command : bye, action : GoodBye!, status : Success
+[10/09/2026 17:11:58] command : lock, action : System locked., status : Success
+[10/09/2026 17:12:04] command : bye, action : GoodBye!, status : Success
