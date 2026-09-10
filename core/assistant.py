@@ -7,24 +7,56 @@ from apps_operations.app_discovery import discover_and_save_apps
 
 class Assistant:
 
-    def __init__(self, avatar=None):
+    def __init__(self, avatar=None, voice=None):
+
         self.avatar = avatar
+        self.voice = voice
 
-    def _avatar_talking(self):
-        if self.avatar:
+    # =====================================================
+    # DIALOG
+    # =====================================================
+
+    def _show_dialog(self, text):
+
+        if self.avatar and text:
+
             self.avatar.root.after(
                 0,
-                self.avatar.play,
-                "talking"
+                self.avatar.show_dialog,
+                text
             )
 
-    def _avatar_ideal(self):
+    def _hide_dialog(self):
+
         if self.avatar:
+
             self.avatar.root.after(
                 0,
-                self.avatar.play,
-                "ideal"
+                self.avatar.hide_dialog
             )
+
+    # =====================================================
+    # RESPONSE
+    # =====================================================
+
+    def _respond(self, text):
+
+        if not text:
+            return
+
+        # Dialog appears
+        self._show_dialog(text)
+
+        # Voice + talking animation
+        if self.voice:
+            self.voice.speak(text)
+
+        # Voice/action finished → dialog disappears
+        self._hide_dialog()
+
+    # =====================================================
+    # START
+    # =====================================================
 
     def start(self):
 
@@ -34,10 +66,23 @@ class Assistant:
 
         print("Grisha here")
 
+        # =============================================
+        # STARTUP GREETING
+        # =============================================
+
+        self._respond(
+            "Hello, I am Grisha."
+        )
+
         while True:
 
             user_input = input("> ")
-            user_input = user_input.strip().lower()
+
+            user_input = (
+                user_input
+                .strip()
+                .lower()
+            )
 
             command, args = command_split(
                 user_input
@@ -47,7 +92,19 @@ class Assistant:
             # EXIT
             # =============================================
 
-            if user_input == "exit":
+            if user_input in (
+                "exit",
+                "quit",
+                "goodbye",
+                "bye"
+            ):
+
+                goodbye = "Goodbye."
+
+                print(
+                    f"{configuration['assistant_name']}> "
+                    f"{goodbye}"
+                )
 
                 logger(
                     user_input,
@@ -55,13 +112,21 @@ class Assistant:
                     "Success"
                 )
 
+                # -----------------------------------------
+                # Show Goodbye dialog + voice
+                # -----------------------------------------
+
+                self._respond(
+                    goodbye
+                )
+
+                # -----------------------------------------
+                # Hide dialog after voice
+                # -----------------------------------------
+
+                self._hide_dialog()
+
                 break
-
-            # =============================================
-            # TALKING
-            # =============================================
-
-            self._avatar_talking()
 
             # =============================================
             # EXECUTE COMMAND
@@ -82,10 +147,12 @@ class Assistant:
             )
 
             # =============================================
-            # TEST DELAY
+            # DIALOG + VOICE
             # =============================================
 
-            self._avatar_ideal()
+            self._respond(
+                dispatch_output
+            )
 
             # =============================================
             # LOG

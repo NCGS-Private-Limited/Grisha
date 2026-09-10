@@ -2,22 +2,51 @@ import threading
 
 from core.assistant import Assistant
 from avatar.overlay import AvatarOverlay
+from voice import VoiceEngine
 
 
 def main():
 
     avatar = AvatarOverlay()
-    grisha = Assistant(avatar)
+
+    # =================================================
+    # VOICE
+    # =================================================
+
+    voice = VoiceEngine(
+        language="en",
+        avatar=avatar
+    )
+
+    # =================================================
+    # ASSISTANT
+    # =================================================
+
+    grisha = Assistant(
+        avatar,
+        voice=voice
+    )
+
+    # =================================================
+    # RUN GRISHA
+    # =================================================
 
     def run_grisha():
 
         try:
+
             grisha.start()
 
         except Exception as e:
-            print(f"[F1 ERROR] {e}")
+
+            print(
+                f"[F1 ERROR] {e}"
+            )
 
         finally:
+
+            voice.close()
+
             avatar.root.after(
                 0,
                 avatar.close
@@ -29,6 +58,10 @@ def main():
     )
 
     grisha_thread.start()
+
+    # =================================================
+    # TKINTER MAIN LOOP
+    # =================================================
 
     avatar.run()
 

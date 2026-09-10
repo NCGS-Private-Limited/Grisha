@@ -27,7 +27,7 @@
         "name": "5319275A.WhatsAppDesktop",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2632.100.0_x64__cv1g1gvanyjgm",
+        "working_directory": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2634.101.0_x64__cv1g1gvanyjgm",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -70,7 +70,7 @@
         "name": "AD2F1837.OMENCommandCenter",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\AD2F1837.OMENCommandCenter_1101.2608.1.0_x64__v10z8vjag6ke6",
+        "working_directory": "C:\\Program Files\\WindowsApps\\AD2F1837.OMENCommandCenter_1101.2608.3.0_x64__v10z8vjag6ke6",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -153,6 +153,22 @@
         ]
     },
     {
+        "name": "Assetto Corsa 6.5.11",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Programs\\assetto-corsa\\Assetto Corsa.exe",
+        "arguments": "",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Programs\\assetto-corsa",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "6511",
+            "ac6",
+            "assetto",
+            "assetto corsa 6.5.11",
+            "assettocorsa6511",
+            "corsa"
+        ]
+    },
+    {
         "name": "Blackmagic Proxy Generator Lite",
         "target": "C:\\editor\\editor_main\\Resolve.exe",
         "arguments": "-pg",
@@ -212,6 +228,37 @@
         "aliases": [
             "c5e2524a-ea46-4f67-841f-6a9465d9d515",
             "c5e2524aea464f67841f6a9465d9d515"
+        ]
+    },
+    {
+        "name": "Calculator Tools 10.0",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\pcb_calculator.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\Calculator Tools 10.0.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "calculator",
+            "calculator tools 10.0",
+            "calculatortools100",
+            "ct1",
+            "tools"
+        ]
+    },
+    {
+        "name": "CarX Street",
+        "target": "C:\\games\\CarX Street\\CarX Street Launcher.exe",
+        "arguments": "",
+        "working_directory": "C:\\games\\CarX Street",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "carx",
+            "carx street",
+            "carxstreet",
+            "cs",
+            "street"
         ]
     },
     {
@@ -325,9 +372,9 @@
     },
     {
         "name": "Discord",
-        "target": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9255\\Discord.exe",
+        "target": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9256\\Discord.exe",
         "arguments": "",
-        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9255",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9256",
         "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord.lnk",
         "source": "start_menu",
         "aliases": [
@@ -338,7 +385,7 @@
         "name": "Discord",
         "target": "C:\\Users\\gamin\\AppData\\Local\\Discord\\Update.exe",
         "arguments": "--processStart Discord.exe",
-        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9255",
+        "working_directory": "C:\\Users\\gamin\\AppData\\Local\\Discord\\app-1.0.9256",
         "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
         "source": "start_menu",
         "aliases": [
@@ -358,6 +405,23 @@
             "disk",
             "disk cleanup",
             "diskcleanup"
+        ]
+    },
+    {
+        "name": "Drawing Sheet Editor 10.0",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\pl_editor.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\Drawing Sheet Editor 10.0.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "drawing",
+            "drawing sheet editor 10.0",
+            "drawingsheeteditor100",
+            "dse1",
+            "editor",
+            "sheet"
         ]
     },
     {
@@ -518,6 +582,22 @@
         ]
     },
     {
+        "name": "FreeState: San Francisco",
+        "target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\FreeState San Francisco\\FreeState.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\FreeState San Francisco",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "francisco",
+            "freestate",
+            "freestate: san francisco",
+            "freestatesanfrancisco",
+            "fsf",
+            "san"
+        ]
+    },
+    {
         "name": "Gaming Mouse Driver",
         "target": "C:\\Program Files (x86)\\Gaming Mouse\\Monitor.exe",
         "arguments": "1",
@@ -531,6 +611,22 @@
             "gamingmousedriver",
             "gmd",
             "mouse"
+        ]
+    },
+    {
+        "name": "Gerber Viewer 10.0",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\gerbview.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\Gerber Viewer 10.0.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "gerber",
+            "gerber viewer 10.0",
+            "gerberviewer100",
+            "gv1",
+            "viewer"
         ]
     },
     {
@@ -688,6 +784,22 @@
         ]
     },
     {
+        "name": "Image Converter 10.0",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\bitmap2component.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\Image Converter 10.0.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "converter",
+            "ic1",
+            "image",
+            "image converter 10.0",
+            "imageconverter100"
+        ]
+    },
+    {
         "name": "IntelliJ IDEA 2026.1.1",
         "target": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1.1\\bin\\idea64.exe",
         "arguments": "",
@@ -734,6 +846,33 @@
             "java 8 update 401 (64-bit)",
             "java8update40164bit",
             "update"
+        ]
+    },
+    {
+        "name": "KDEe.V.KDEConnect",
+        "target": "",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\WindowsApps\\KDEe.V.KDEConnect_26.402.6289.0_x64__7vt06qxq7ptv8",
+        "shortcut": "",
+        "source": "store",
+        "aliases": [
+            "kdee.v.kdeconnect",
+            "kdeevkdeconnect"
+        ]
+    },
+    {
+        "name": "KiCad 10.0",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\kicad.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\KiCad 10.0.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "k1",
+            "kicad",
+            "kicad 10.0",
+            "kicad100"
         ]
     },
     {
@@ -791,9 +930,9 @@
     },
     {
         "name": "Microsoft Edge",
-        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\152.0.4191.53\\msedge.exe",
+        "target": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\152.0.4191.66\\msedge.exe",
         "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\152.0.4191.53",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\152.0.4191.66",
         "shortcut": "",
         "source": "registry",
         "aliases": [
@@ -806,9 +945,9 @@
     },
     {
         "name": "Microsoft Edge WebView2 Runtime",
-        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "target": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\152.0.4191.66\\msedgewebview2.exe",
         "arguments": "",
-        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107",
+        "working_directory": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\152.0.4191.66",
         "shortcut": "",
         "source": "registry",
         "aliases": [
@@ -822,19 +961,39 @@
         ]
     },
     {
-        "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
-        "target": "C:\\ProgramData\\Package Cache\\{d8bbe9f9-7c5b-42c6-b715-9ee898a2e515}\\VC_redist.x64.exe",
+        "name": "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030",
+        "target": "C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe",
         "arguments": "",
-        "working_directory": "C:\\ProgramData\\Package Cache\\{d8bbe9f9-7c5b-42c6-b715-9ee898a2e515}",
+        "working_directory": "C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}",
         "shortcut": "",
         "source": "registry",
         "aliases": [
-            "144435211",
+            "11061030",
+            "2012",
+            "c",
+            "microsoft",
+            "microsoft visual c++ 2012 redistributable (x64) - 11.0.61030",
+            "microsoftvisualc2012redistributablex6411061030",
+            "mvc2rx1",
+            "redistributable",
+            "visual",
+            "x64"
+        ]
+    },
+    {
+        "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.51.36231",
+        "target": "C:\\ProgramData\\Package Cache\\{c157798c-9519-4e56-98d9-f696f78f4a61}\\VC_redist.x64.exe",
+        "arguments": "",
+        "working_directory": "C:\\ProgramData\\Package Cache\\{c157798c-9519-4e56-98d9-f696f78f4a61}",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "145136231",
             "20152022",
             "c",
             "microsoft",
-            "microsoft visual c++ 2015-2022 redistributable (x64) - 14.44.35211",
-            "microsoftvisualc20152022redistributablex64144435211",
+            "microsoft visual c++ 2015-2022 redistributable (x64) - 14.51.36231",
+            "microsoftvisualc20152022redistributablex64145136231",
             "mvc2rx1",
             "redistributable",
             "visual",
@@ -1177,7 +1336,7 @@
         "name": "Microsoft.MicrosoftOfficeHub",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.54041.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2609.33021.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1357,7 +1516,7 @@
         "name": "Microsoft.RawImageExtension",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.RawImageExtension_2.5.24.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.RawImageExtension_2.5.35.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1369,7 +1528,7 @@
         "name": "Microsoft.ScreenSketch",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2605.37.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2605.38.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1417,7 +1576,7 @@
         "name": "Microsoft.StorePurchaseApp",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22607.1401.2.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22607.1401.4.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1525,7 +1684,7 @@
         "name": "Microsoft.WebMediaExtensions",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_2.1.38.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_2.1.51.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1717,7 +1876,7 @@
         "name": "Microsoft.Windows.Photos",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2026.11060.2004.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2026.11080.24002.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1789,7 +1948,7 @@
         "name": "Microsoft.WindowsAlarms",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2606.11.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2607.6.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1909,7 +2068,7 @@
         "name": "Microsoft.WindowsCalculator",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2606.0.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2607.0.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1921,7 +2080,7 @@
         "name": "Microsoft.WindowsCamera",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2026.2605.7.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2026.2607.1.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1945,7 +2104,7 @@
         "name": "Microsoft.WindowsNotepad",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2606.15.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1957,7 +2116,7 @@
         "name": "Microsoft.WindowsSoundRecorder",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_11.2606.0.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_11.2607.1.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -1969,7 +2128,7 @@
         "name": "Microsoft.WindowsStore",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.7.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22607.1401.8.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2065,7 +2224,7 @@
         "name": "Microsoft.ZuneMusic",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2606.19.0_x64__8wekyb3d8bbwe",
+        "working_directory": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2607.16.0_x64__8wekyb3d8bbwe",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2340,23 +2499,6 @@
         ]
     },
     {
-        "name": "Need for Speed Heat",
-        "target": "C:\\games\\nfs heat\\Need for Speed Heat\\NeedForSpeedHeat.exe",
-        "arguments": "",
-        "working_directory": "C:\\games\\nfs heat\\Need for Speed Heat",
-        "shortcut": "",
-        "source": "registry",
-        "aliases": [
-            "for",
-            "heat",
-            "need",
-            "need for speed heat",
-            "needforspeedheat",
-            "nfsh",
-            "speed"
-        ]
-    },
-    {
         "name": "Node.js",
         "target": "C:\\Program Files\\nodejs\\node.exe",
         "arguments": "",
@@ -2377,6 +2519,17 @@
         "source": "start_menu",
         "aliases": [
             "notion"
+        ]
+    },
+    {
+        "name": "Npcap",
+        "target": "C:\\Program Files\\Npcap\\uninstall.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Npcap",
+        "shortcut": "",
+        "source": "registry",
+        "aliases": [
+            "npcap"
         ]
     },
     {
@@ -2410,19 +2563,19 @@
         ]
     },
     {
-        "name": "NVIDIA FrameView SDK 1.8.12612.38276700",
+        "name": "NVIDIA FrameView SDK 1.9.12728.38614306",
         "target": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK\\nvfvsdksvc_x64.exe",
         "arguments": "",
         "working_directory": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK",
         "shortcut": "",
         "source": "registry",
         "aliases": [
-            "181261238276700",
+            "191272838614306",
             "frameview",
             "nfs1",
             "nvidia",
-            "nvidia frameview sdk 1.8.12612.38276700",
-            "nvidiaframeviewsdk181261238276700",
+            "nvidia frameview sdk 1.9.12728.38614306",
+            "nvidiaframeviewsdk191272838614306",
             "sdk"
         ]
     },
@@ -2443,18 +2596,18 @@
         ]
     },
     {
-        "name": "NVIDIA ShadowPlay 11.0.8.0",
+        "name": "NVIDIA ShadowPlay 11.0.9.500",
         "target": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\ShadowPlay\\nvsphelper64.exe",
         "arguments": "",
         "working_directory": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\ShadowPlay",
         "shortcut": "",
         "source": "registry",
         "aliases": [
-            "11080",
+            "1109500",
             "ns1",
             "nvidia",
-            "nvidia shadowplay 11.0.8.0",
-            "nvidiashadowplay11080",
+            "nvidia shadowplay 11.0.9.500",
+            "nvidiashadowplay1109500",
             "shadowplay"
         ]
     },
@@ -2535,7 +2688,7 @@
         "name": "OpenAI.Codex",
         "target": "",
         "arguments": "",
-        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0",
+        "working_directory": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.901.5280.0_x64__2p2nqsd0c76g0",
         "shortcut": "",
         "source": "store",
         "aliases": [
@@ -2556,6 +2709,23 @@
             "oraclevirtualbox",
             "ov",
             "virtualbox"
+        ]
+    },
+    {
+        "name": "PCB Editor 10.0 (standalone)",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\pcbnew.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\PCB Editor 10.0 (standalone).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "editor",
+            "pcb",
+            "pcb editor 10.0 (standalone)",
+            "pcbeditor100standalone",
+            "pe1s",
+            "standalone"
         ]
     },
     {
@@ -2818,51 +2988,6 @@
         ]
     },
     {
-        "name": "Riot Client",
-        "target": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
-        "arguments": "",
-        "working_directory": "C:/Riot Games/Riot Client",
-        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Riot Games\\Riot Client.lnk",
-        "source": "start_menu",
-        "aliases": [
-            "client",
-            "rc",
-            "riot",
-            "riot client",
-            "riotclient"
-        ]
-    },
-    {
-        "name": "Riot Client ",
-        "target": "C:\\Riot Games\\Riot Client\\RiotClientCrashHandler.exe",
-        "arguments": "",
-        "working_directory": "C:\\Riot Games\\Riot Client",
-        "shortcut": "",
-        "source": "registry",
-        "aliases": [
-            "client",
-            "rc",
-            "riot",
-            "riot client",
-            "riotclient"
-        ]
-    },
-    {
-        "name": "Riot Vanguard",
-        "target": "C:\\Program Files\\Riot Vanguard\\log-uploader.exe",
-        "arguments": "",
-        "working_directory": "C:\\Program Files\\Riot Vanguard",
-        "shortcut": "",
-        "source": "registry",
-        "aliases": [
-            "riot",
-            "riot vanguard",
-            "riotvanguard",
-            "rv",
-            "vanguard"
-        ]
-    },
-    {
         "name": "Roblox",
         "target": "C:\\Users\\gamin\\AppData\\Local\\Roblox\\Versions\\version-d584fb6c717a43d9\\RobloxPlayerBeta.exe",
         "arguments": "",
@@ -2906,6 +3031,23 @@
         ]
     },
     {
+        "name": "Schematic Editor 10.0 (standalone)",
+        "target": "C:\\Program Files\\KiCad\\10.0\\bin\\eeschema.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\KiCad\\10.0",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KiCad 10.0\\Schematic Editor 10.0 (standalone).lnk",
+        "source": "start_menu",
+        "aliases": [
+            "100",
+            "editor",
+            "schematic",
+            "schematic editor 10.0 (standalone)",
+            "schematiceditor100standalone",
+            "se1s",
+            "standalone"
+        ]
+    },
+    {
         "name": "spacedesk DRIVER Console",
         "target": "C:\\Program Files\\datronicsoft\\spacedesk\\spacedeskConsole.exe",
         "arguments": "",
@@ -2938,10 +3080,10 @@
     },
     {
         "name": "Steam",
-        "target": "C:\\Program Files (x86)\\Steam\\Steam.exe",
+        "target": "C:\\Program Files (x86)\\Steam\\steam.exe",
         "arguments": "",
         "working_directory": "C:\\Program Files (x86)\\Steam",
-        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk",
+        "shortcut": "C:\\Users\\gamin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk",
         "source": "start_menu",
         "aliases": [
             "steam"
@@ -3133,17 +3275,6 @@
             "utorrentweb",
             "uw",
             "web"
-        ]
-    },
-    {
-        "name": "VALORANT",
-        "target": "C:\\games\\Riot Games\\VALORANT\\live\\VALORANT.exe",
-        "arguments": "",
-        "working_directory": "C:\\games\\Riot Games\\VALORANT\\live",
-        "shortcut": "",
-        "source": "registry",
-        "aliases": [
-            "valorant"
         ]
     },
     {
@@ -3447,6 +3578,17 @@
         "aliases": [
             "winrar.shellextension",
             "winrarshellextension"
+        ]
+    },
+    {
+        "name": "Wireshark",
+        "target": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+        "arguments": "",
+        "working_directory": "C:\\Program Files\\Wireshark\\tls",
+        "shortcut": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Wireshark.lnk",
+        "source": "start_menu",
+        "aliases": [
+            "wireshark"
         ]
     }
 ]

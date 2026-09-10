@@ -7,7 +7,7 @@ from .player import AvatarPlayer
 from .position import PositionManager
 from .context_menu import AvatarContextMenu
 from .tray import TrayManager
-
+from .dialog import DialogManager
 
 class AvatarOverlay:
 
@@ -28,6 +28,19 @@ class AvatarOverlay:
         180,
         270
     )
+
+    # =====================================================
+    # AVATAR GEOMETRY
+    # =====================================================
+
+    def get_avatar_geometry(self):
+
+        return (
+            self.root.winfo_x(),
+            self.root.winfo_y(),
+            self.avatar_width,
+            self.avatar_height
+        )
 
     def __init__(
         self,
@@ -110,6 +123,13 @@ class AvatarOverlay:
 
         # Tray
         self.tray = None
+
+        # Dialog
+        self.dialog = DialogManager(
+            self.root,
+            self.get_avatar_geometry,
+            self.get_virtual_screen
+        )
 
         # Windows handle
         self.hwnd = None
@@ -533,6 +553,8 @@ class AvatarOverlay:
             f"+{self.x}+{self.y}"
         )
 
+        self.dialog.update_position()
+
     # =====================================================
     # DRAG STOP
     # =====================================================
@@ -584,6 +606,8 @@ class AvatarOverlay:
         self.context_menu.set_rotation(
             angle
         )
+
+        self.dialog.update_position()
 
     # =====================================================
     # WINDOW SIZE
@@ -826,7 +850,23 @@ class AvatarOverlay:
 
         self.renderer.close()
 
+        self.dialog.close()
+
         self.root.destroy()
+
+    # =====================================================
+    # DIALOG
+    # =====================================================
+
+    def show_dialog(self, text):
+
+        self.dialog.show(
+            text
+        )
+
+    def hide_dialog(self):
+
+        self.dialog.hide()
 
     # =====================================================
     # RUN

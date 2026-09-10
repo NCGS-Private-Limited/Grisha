@@ -6,7 +6,7 @@ from apps_operations.app_launcher import open_app
 
 def hello(name=""):
     if name:
-        return f"Hello! {name}"
+        return f"Hello NC"
     return "Hello"
 
 def help(topic=""):
