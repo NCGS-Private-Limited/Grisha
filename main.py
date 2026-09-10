@@ -5,6 +5,7 @@ from avatar.overlay import AvatarOverlay
 from voice import VoiceEngine
 from speech.stt import STTEngine
 from speech.wake_word import WakeWordEngine
+from core.quote_manager import QuoteManager
 
 
 def main():
@@ -19,6 +20,16 @@ def main():
         language="en",
         avatar=avatar
     )
+
+    # =================================================
+    # QUOTES
+    # =================================================
+
+    quotes = QuoteManager(
+        avatar=avatar
+    )
+
+    quotes.start()
 
     stt = STTEngine(
         language="en"
@@ -55,6 +66,8 @@ def main():
 
 
         finally:
+
+            quotes.stop()
 
             voice.close()
 

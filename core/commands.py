@@ -1,6 +1,7 @@
 from apps_operations.app_database import ApplicationDatabase
 from apps_operations.app_matcher import find_best_match
 from apps_operations.app_launcher import open_app
+from datetime import datetime
 
 # General Commands
 
@@ -56,3 +57,10 @@ def open_command(args):
     success, message = open_app(app)
 
     return message, success
+
+
+def get_current_time():
+
+    current_time = datetime.now().strftime("%I:%M %p")
+
+    return f"The current time is {current_time}."

@@ -86,6 +86,8 @@ class Assistant:
 
             if self.stt:
 
+                self.stt.wait_for_wake_word()
+
                 user_input = self.stt.listen()
 
             else:
