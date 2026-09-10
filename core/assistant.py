@@ -7,11 +7,18 @@ from apps_operations.app_discovery import discover_and_save_apps
 
 class Assistant:
 
-    def __init__(self, avatar=None, voice=None, stt=None):
+    def __init__(
+            self,
+            avatar=None,
+            voice=None,
+            stt=None,
+            wake_word=None
+    ):
 
         self.avatar = avatar
         self.voice = voice
         self.stt = stt
+        self.wake_word = wake_word
 
     # =====================================================
     # DIALOG
@@ -85,6 +92,28 @@ class Assistant:
 
                 user_input = input("> ")
 
+            if not user_input:
+                continue
+
+            # =================================================
+            # WAKE WORD
+            # =================================================
+
+            if self.wake_word:
+
+                if not self.wake_word.is_wake_word(
+                        user_input
+                ):
+                    continue
+
+                user_input = self.wake_word.remove_wake_word(
+                    user_input
+                )
+
+                # Wake word only
+                if not user_input:
+                    continue
+
             user_input = (
                 user_input
                 .strip()
@@ -107,9 +136,7 @@ class Assistant:
             # =============================================
 
             if user_input in (
-                "exit",
-                "quit",
-                "goodbye",
+                "good bye",
                 "bye"
             ):
 

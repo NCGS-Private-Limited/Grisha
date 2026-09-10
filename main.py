@@ -4,6 +4,7 @@ from core.assistant import Assistant
 from avatar.overlay import AvatarOverlay
 from voice import VoiceEngine
 from speech.stt import STTEngine
+from speech.wake_word import WakeWordEngine
 
 
 def main():
@@ -23,6 +24,8 @@ def main():
         language="en"
     )
 
+    wake_word = WakeWordEngine()
+
     # =================================================
     # ASSISTANT
     # =================================================
@@ -30,7 +33,8 @@ def main():
     grisha = Assistant(
         avatar,
         voice=voice,
-        stt=stt
+        stt=stt,
+        wake_word=wake_word
     )
 
     # =================================================
