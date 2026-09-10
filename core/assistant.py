@@ -8,11 +8,11 @@ from apps_operations.app_discovery import discover_and_save_apps
 class Assistant:
 
     def __init__(
-            self,
-            avatar=None,
-            voice=None,
-            stt=None,
-            wake_word=None
+        self,
+        avatar=None,
+        voice=None,
+        stt=None,
+        wake_word=None
     ):
 
         self.avatar = avatar
@@ -52,14 +52,24 @@ class Assistant:
         if not text:
             return
 
-        # Dialog appears
+        # ---------------------------------------------
+        # Show dialog
+        # ---------------------------------------------
+
         self._show_dialog(text)
 
-        # Voice + talking animation
+        # ---------------------------------------------
+        # Voice
+        # ---------------------------------------------
+
         if self.voice:
+
             self.voice.speak(text)
 
-        # Voice/action finished → dialog disappears
+        # ---------------------------------------------
+        # Hide dialog
+        # ---------------------------------------------
+
         self._hide_dialog()
 
     # =====================================================
@@ -69,6 +79,10 @@ class Assistant:
     def start(self):
 
         configuration = config()
+
+        # ---------------------------------------------
+        # Discover applications
+        # ---------------------------------------------
 
         discover_and_save_apps()
 
@@ -82,39 +96,44 @@ class Assistant:
             "Hello, I am Grisha."
         )
 
+        # =============================================
+        # MAIN LOOP
+        # =============================================
+
         while True:
+
+            # =========================================
+            # STT MODE
+            # =========================================
 
             if self.stt:
 
-                self.stt.wait_for_wake_word()
+                # -------------------------------------
+                # Wake word detected
+                # Listen for actual command
+                # -------------------------------------
 
                 user_input = self.stt.listen()
+
+            # =========================================
+            # KEYBOARD FALLBACK
+            # =========================================
 
             else:
 
                 user_input = input("> ")
 
+            # =========================================
+            # EMPTY INPUT
+            # =========================================
+
             if not user_input:
+
                 continue
 
-            # =================================================
-            # WAKE WORD
-            # =================================================
-
-            if self.wake_word:
-
-                if not self.wake_word.is_wake_word(
-                        user_input
-                ):
-                    continue
-
-                user_input = self.wake_word.remove_wake_word(
-                    user_input
-                )
-
-                # Wake word only
-                if not user_input:
-                    continue
+            # =========================================
+            # CLEAN INPUT
+            # =========================================
 
             user_input = (
                 user_input
@@ -122,22 +141,66 @@ class Assistant:
                 .lower()
             )
 
-            # =============================================
-            # EMPTY INPUT
-            # =============================================
-
             if not user_input:
+
                 continue
+
+            # =========================================
+            # WAKE WORD PROCESSING
+            # =========================================
+
+            if self.wake_word:
+
+                # -------------------------------------
+                # Check wake word
+                # -------------------------------------
+
+                if not self.wake_word.is_wake_word(
+                    user_input
+                ):
+
+                    continue
+
+                # -------------------------------------
+                # Remove wake word
+                # -------------------------------------
+
+                user_input = (
+                    self.wake_word.remove_wake_word(
+                        user_input
+                    )
+                )
+
+                user_input = (
+                    user_input
+                    .strip()
+                    .lower()
+                )
+
+                # -------------------------------------
+                # Wake word only
+                # -------------------------------------
+
+                if not user_input:
+
+                    continue
+
+            # =========================================
+            # PARSE COMMAND
+            # =========================================
 
             command, args = command_split(
                 user_input
             )
 
-            # =============================================
+            # =========================================
             # EXIT
-            # =============================================
+            # =========================================
 
             if user_input in (
+                "exit",
+                "quit",
+                "goodbye",
                 "good bye",
                 "bye"
             ):
@@ -155,51 +218,45 @@ class Assistant:
                     "Success"
                 )
 
-                # -----------------------------------------
-                # Show Goodbye dialog + voice
-                # -----------------------------------------
+                # -------------------------------------
+                # Goodbye response
+                # -------------------------------------
 
                 self._respond(
                     goodbye
                 )
 
-                # -----------------------------------------
-                # Hide dialog after voice
-                # -----------------------------------------
-
-                self._hide_dialog()
-
                 break
 
-            # =============================================
+            # =========================================
             # EXECUTE COMMAND
-            # =============================================
+            # =========================================
 
             dispatch_output, status_output = dispatch(
                 command,
                 args
             )
 
-            # =============================================
+            # =========================================
             # RESPONSE
-            # =============================================
+            # =========================================
 
             print(
                 f"{configuration['assistant_name']}> "
                 f"{dispatch_output}"
             )
 
-            # =============================================
-            # DIALOG + VOICE
-            # =============================================
+            # -----------------------------------------
+            # Dialog + Voice
+            # -----------------------------------------
 
             self._respond(
                 dispatch_output
             )
 
-            # =============================================
+            # =========================================
             # LOG
-            # =============================================
+            # =========================================
 
             logger(
                 user_input,

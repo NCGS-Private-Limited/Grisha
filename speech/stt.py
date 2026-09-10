@@ -199,6 +199,7 @@ class STTEngine:
 
             text = text.replace(",", " ")
             text = text.replace(".", "")
+            text = text.replace("!", "")
             text = text.strip()
 
             for wake_word in self.wake_words:

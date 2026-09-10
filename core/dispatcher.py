@@ -1,6 +1,7 @@
 from core.commands import hello, test_command
 from core.commands import help
 from core.commands import version
+from core.commands import get_current_time
 from file_operations.create_file import create_file
 from folder_operations.create_folder import create_folder
 from file_operations.delete_file import delete_file
@@ -29,7 +30,8 @@ commands = {
     "hello": hello,
     "help": help,
     "version": version,
-    "test": test_command
+    "test": test_command,
+    "time": get_current_time
 }
 
 def dispatch(command, args):
