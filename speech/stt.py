@@ -1,6 +1,7 @@
 import os
 import sys
 import glob
+import threading
 
 # =====================================================
 # NVIDIA CUDA DLL SETUP
@@ -84,6 +85,9 @@ class STTEngine:
         self.sample_rate = 16000
         self.channels = 1
         self.record_seconds = 5
+
+        self.stop_event = threading.Event()
+
         self.wake_words = (
             "grisha",
             "hey grisha",
@@ -115,6 +119,9 @@ class STTEngine:
     # =================================================
 
     def listen(self):
+
+        if self.stop_event.is_set():
+            return ""
 
         print("Listening...")
 
@@ -168,7 +175,7 @@ class STTEngine:
 
     def wait_for_wake_word(self):
 
-        while True:
+        while not self.stop_event.is_set():
 
             print("Waiting for wake word...", end="\r")
 
@@ -216,3 +223,27 @@ class STTEngine:
     def close(self):
 
         pass
+
+    # =================================================
+    # STOP STT
+    # =================================================
+
+    def stop(self):
+
+        self.stop_event.set()
+
+    # =================================================
+    # RESUME STT
+    # =================================================
+
+    def resume(self):
+
+        self.stop_event.clear()
+
+    # =================================================
+    # CHECK STATUS
+    # =================================================
+
+    def is_stopped(self):
+
+        return self.stop_event.is_set()

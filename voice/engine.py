@@ -30,10 +30,17 @@ class VoiceEngine:
         self.language = language
         self.voice = self.VOICES[language]
 
+        self.enabled = True
+
+
         # AvatarOverlay instance
         self.avatar = avatar
 
         pygame.mixer.init()
+
+    def set_enabled(self, enabled):
+
+        self.enabled = enabled
 
     # =====================================================
     # LANGUAGE
@@ -93,6 +100,9 @@ class VoiceEngine:
     # =====================================================
 
     def speak(self, text):
+
+        if not self.enabled:
+            return
 
         if not text:
             return

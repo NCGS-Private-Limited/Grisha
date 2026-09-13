@@ -20,6 +20,44 @@ class Assistant:
         self.stt = stt
         self.wake_word = wake_word
 
+        self.avatar_mode = False
+
+    # =====================================================
+    # AVATAR MODE
+    # =====================================================
+
+    def set_avatar_mode(self, enabled):
+
+        self.avatar_mode = enabled
+
+        # ---------------------------------------------
+        # STT
+        # ---------------------------------------------
+
+        if self.stt:
+
+            if enabled:
+                self.stt.stop()
+            else:
+                self.stt.resume()
+
+        # ---------------------------------------------
+        # TTS
+        # ---------------------------------------------
+
+        if self.voice:
+            self.voice.set_enabled(
+                not enabled
+            )
+
+    def toggle_avatar_mode(self):
+
+        self.set_avatar_mode(
+            not self.avatar_mode
+        )
+
+        return self.avatar_mode
+
     # =====================================================
     # DIALOG
     # =====================================================
@@ -108,10 +146,18 @@ class Assistant:
 
             if self.stt:
 
-                # -------------------------------------
-                # Wake word detected
-                # Listen for actual command
-                # -------------------------------------
+                if self.avatar_mode:
+                    continue
+
+                wake_detected = (
+                    self.stt.wait_for_wake_word()
+                )
+
+                if not wake_detected:
+                    continue
+
+                if self.avatar_mode:
+                    continue
 
                 user_input = self.stt.listen()
 
