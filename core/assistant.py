@@ -169,6 +169,8 @@ class Assistant:
 
                 user_input = input("> ")
 
+                print(user_input)
+
             # =========================================
             # EMPTY INPUT
             # =========================================
